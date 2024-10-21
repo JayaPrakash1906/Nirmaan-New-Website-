@@ -21,7 +21,8 @@ import Img19 from "../Assets/X .png";
 import Img20 from "../Assets/FB.png";
 import Img21 from "../Assets/algram.png";
 import Img22 from "../Assets/NATESAN.jpg";
-import Img23 from "../Assets/aptiv.png"
+import Img23 from "../Assets/aptiv.png";
+import Img24 from "../Assets/Faculty Advisor Message.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { CiLocationOn, CiMail, CiYoutube } from "react-icons/ci";
@@ -392,6 +393,21 @@ const Home = () => {
             ))}
           </div>
         </div>
+              <div className="font-semibold text-3xl text-green-600 font-dmsans flex justify-center items-center mt-16">Message from Faculty Advisor</div>
+        <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
+          <div className="col-span-2 flex justify-center items-center">
+            <img src={Img24} className="md:h-[300px]  " alt="Demo Day 2024" />
+          </div>
+          <div className="col-span-5">
+          <div className="flex pt-2 text-black text-justify font-md">
+              <span className="mt-1">
+              ‘Welcome to Nirmaan where dreams turn into reality! Do you have an entrepreneurial idea? an IP or a product? At Nirmaan we take pride in supporting your journey towards creating a scalable deep-tech startup. Our Pratham and Akshar programmes are designed for creating an MVP out of proof-of-concept ideas, and then finding pilots for those products and solutions. We support our teams with space, scholarships, innovation grants, industry and investor connects as well as providing vital mentorship to supercharge their startup journey. Have a startup dream? See you at our workspace in the Sudha & Shankar Innovation Hub!'
+              </span>
+          </div>
+          </div>
+          </div>
+
+
         <div>
       <div className="flex items-center justify-center text-4xl font-bold mt-16 mb-8 font-dmsans text-green-600">
         Our Supporters
