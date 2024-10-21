@@ -399,9 +399,9 @@ const Home = () => {
             <img src={Img24} className="md:h-270px]  " alt="Demo Day 2024" />
           </div>
           <div className="col-span-5">
-          <div className="flex pt-2 text-black text-justify font-md">
+          <div className="flex pt-2 text-black text-justify  font-dmsans">
               <span className="mt-1">
-              ‘Welcome to Nirmaan where dreams turn into reality! Do you have an entrepreneurial idea? an IP or a product? At Nirmaan we take pride in supporting your journey towards creating a scalable deep-tech startup. Our Pratham and Akshar programmes are designed for creating an MVP out of proof-of-concept ideas, and then finding pilots for those products and solutions. We support our teams with space, scholarships, innovation grants, industry and investor connects as well as providing vital mentorship to supercharge their startup journey. Have a startup dream? See you at our workspace in the Sudha & Shankar Innovation Hub!'
+              'Welcome to Nirmaan where dreams turn into reality! Do you have an entrepreneurial idea? an IP or a product? At Nirmaan we take pride in supporting your journey towards creating a scalable deep-tech startup. Our Pratham and Akshar programmes are designed for creating an MVP out of proof-of-concept ideas, and then finding pilots for those products and solutions. We support our teams with space, scholarships, innovation grants, industry and investor connects as well as providing vital mentorship to supercharge their startup journey. Have a startup dream? See you at our workspace in the Sudha & Shankar Innovation Hub!'
               </span>
           </div>
           </div>
