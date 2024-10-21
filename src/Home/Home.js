@@ -396,7 +396,7 @@ const Home = () => {
               <div className="font-semibold text-3xl text-green-600 font-dmsans flex justify-center items-center mt-16">Message from Faculty Advisor</div>
         <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
           <div className="col-span-2 flex justify-center items-center">
-            <img src={Img24} className="md:h-[300px]  " alt="Demo Day 2024" />
+            <img src={Img24} className="md:h-270px]  " alt="Demo Day 2024" />
           </div>
           <div className="col-span-5">
           <div className="flex pt-2 text-black text-justify font-md">
