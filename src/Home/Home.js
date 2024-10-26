@@ -310,7 +310,7 @@ const Home = () => {
         <div className="md:grid md:grid-cols-12 md:gap-[5px] md:mr-6">
           <div className="col-span-1"></div>
           <motion.div
-            className="col-span-5 mt-14 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
+            className="col-span-5 mt-16 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -325,7 +325,7 @@ const Home = () => {
             />
           </motion.div>
           <motion.div
-            className="col-span-5 mt-14 mr-3 ml-2 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-5 mt-16 mr-3 ml-2 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -340,19 +340,19 @@ const Home = () => {
           <div className="col-span-1"></div>
           
           <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content "
+            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
             <motion.img
               src={Img17}
-              className="md:h-21 border border-green-800 rounded-lg"
+              className="md:h-[138px] border border-green-800 rounded-lg"
               alt="Image 1"
             />
           </motion.div>
           <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -364,7 +364,7 @@ const Home = () => {
             />
           </motion.div>
           <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -393,19 +393,22 @@ const Home = () => {
             ))}
           </div>
         </div>
-              <div className="font-semibold text-3xl text-green-600 font-dmsans flex justify-center items-center mt-16">Message from Faculty Advisor</div>
-        <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
-          <div className="col-span-2 flex justify-center items-center">
-            <img src={Img24} className="md:h-270px]  " alt="Demo Day 2024" />
-          </div>
-          <div className="col-span-5">
-          <div className="flex pt-2 text-black text-justify  font-dmsans">
-              <span className="mt-1">
-              'Welcome to Nirmaan where dreams turn into reality! Do you have an entrepreneurial idea? an IP or a product? At Nirmaan we take pride in supporting your journey towards creating a scalable deep-tech startup. Our Pratham and Akshar programmes are designed for creating an MVP out of proof-of-concept ideas, and then finding pilots for those products and solutions. We support our teams with space, scholarships, innovation grants, industry and investor connects as well as providing vital mentorship to supercharge their startup journey. Have a startup dream? See you at our workspace in the Sudha & Shankar Innovation Hub!'
-              </span>
-          </div>
-          </div>
-          </div>
+        <div className="font-semibold text-2xl sm:text-3xl text-green-600 font-dmsans flex justify-center items-center mt-8 sm:mt-16 text-center sm:text-left">
+  Message from Faculty Advisor
+</div>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 px-4 sm:px-10 mt-8 sm:mt-10 gap-6 sm:gap-14">
+  <div className="col-span-1 sm:col-span-2 flex justify-center items-center">
+    <img src={Img24} className="h-[200px] sm:h-[270px] w-full sm:w-[400px] object-cover object-top" alt="Demo Day 2024" />
+  </div>      
+  <div className="col-span-1 sm:col-span-5">
+    <div className="flex pt-2 text-black text-justify font-dmsans text-sm sm:text-base">
+      <span className="mt-1">
+        'Welcome to Nirmaan where dreams turn into reality! Do you have an entrepreneurial idea? an IP or a product? At Nirmaan we take pride in supporting your journey towards creating a scalable deep-tech startup. Our Pratham and Akshar programmes are designed for creating an MVP out of proof-of-concept ideas, and then finding pilots for those products and solutions. We support our teams with space, scholarships, innovation grants, industry and investor connects as well as providing vital mentorship to supercharge their startup journey. Have a startup dream? See you at our workspace in the Sudha & Shankar Innovation Hub!'
+      </span>
+    </div>
+  </div>
+</div>
+ 
 
 
         <div>
