@@ -23,7 +23,7 @@ function Events() {
             <span className="text-black font-semibold">Events</span>
           </div>
           <h2 className="md:text-5xl font-semibold text-green-600 text-center pt-7 pb-6 sm:text-3xl">
-            Upcoming Events
+            Past Events
           </h2>
         </div>
 

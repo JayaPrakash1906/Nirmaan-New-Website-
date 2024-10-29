@@ -104,4 +104,3 @@ function Teams() {
 }
 
 export default Teams;
-8
