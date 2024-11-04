@@ -5,7 +5,7 @@ import img2 from '../Assets/BobyGeorge.jpg';
 import img3 from '../Assets/satyaseshadri.png';
 import img4 from '../Assets/u3ryrzl7506qix6ydqph.webp';
 import img5 from '../Assets/chirag.png'; 
-import img6 from '../Assets/Prajagopal.jpeg';
+import img6 from "../Assets/Faculty Advisor Message.png"
 import img7 from '../Assets/Nandhini.jpeg';
 import img8 from '../Assets/student.jpeg';
 import img9 from '../Assets/vishy.jpg';
