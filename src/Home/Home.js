@@ -5,7 +5,7 @@ import Img2 from "../Assets//hyperverge-logo.webp";
 import Img3 from "../Assets/Seafund-Logo-1.webp";
 import Img4 from "../Assets/logo-cogniphy.png";
 import Img5 from "../Assets/5.jpg";
-import Img6 from "../Assets/6.jpeg";
+import Img15 from "../Assets/6.jpeg";
 import Img7 from "../Assets/7.jpeg";
 import Img8 from "../Assets/Paststudent.png";
 import Img9 from "../Assets/sobusyoutube.jpg";
@@ -13,7 +13,7 @@ import Img11 from "../Assets/nexus.png";
 import Img12 from "../Assets/nithin.png";
 import Img13 from "../Assets/Eashwar.png";
 import Img14 from "../Assets/Krishaka.png";
-import Img15 from "../Assets/1.jpeg";
+import Img6 from "../Assets/1P5A5749.jpg";
 import Img16 from "../Assets/logo.png";
 import Img17 from "../Assets/image.jpg";
 import Img18 from "../Assets/image (1).jpg";
@@ -317,7 +317,7 @@ const Home = () => {
           >
             <motion.img
               src={Img6}
-              className="sm:h-[250px] sm:ml-2 w-[400px] border border-green-800 rounded-lg md:h-[150px] md:w-[300px]"
+              className="sm:h-[250px] sm:ml-2 w-[400px]  rounded-lg md:h-[150px] md:w-[300px]"
               alt="Image 1"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}   
@@ -332,7 +332,7 @@ const Home = () => {
           >
             <motion.img
               src={Img15}
-              className="h-[300px] w-[500px] border border-green-800 rounded-lg  md:h-[150px] md:w-[300px]"
+              className="h-[300px] w-[500px]  rounded-lg  md:h-[150px] md:w-[300px]"
 
               alt="Image 9"
             />
@@ -347,7 +347,7 @@ const Home = () => {
           >
             <motion.img
               src={Img17}
-              className="md:h-[138px] border border-green-800 rounded-lg"
+              className="md:h-[138px]  rounded-lg"
               alt="Image 1"
             />
           </motion.div>
@@ -359,7 +359,7 @@ const Home = () => {
           >
             <motion.img
               src={Img18}
-              className="md:h-[138px]  border border-green-800 rounded-lg"
+              className="md:h-[138px]   rounded-lg"
               alt="Image 1"
             />
           </motion.div>
@@ -371,7 +371,7 @@ const Home = () => {
           >
             <motion.img
               src={Img5}
-              className=" md:h-[138px] border border-green-800 rounded-lg"
+              className=" md:h-[138px]  rounded-lg"
               alt="Image 1"
             />
           </motion.div>
