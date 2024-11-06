@@ -22,7 +22,13 @@ function Contact(){
                     <div className="col-span-2">
                         <textarea placeholder="Your Message" rows="4" className="w-full p-2 bg-gray-100 border-gray-300 rounded-md resize-none focus:ring-2 focus:ring-green-200 focus:outline-none"></textarea>
                     </div>
+                    <div className=" flex justify-end items-end col-span-2">
+                                          <button className='mr-6 mt-6 bg-green-600 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-blue-600 transition mb-6'>
+                                              Submit
+                                          </button>
+                                   </div>  
                 </div>
+                
             </div>
             <Footer />
     </div>
