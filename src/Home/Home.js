@@ -340,41 +340,42 @@ const Home = () => {
           <div className="col-span-1"></div>
           
           <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
-            initial={{ opacity: 0}}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <motion.img
-              src={Img17}
-              className="md:h-[138px]  rounded-lg"
-              alt="Image 1"
-            />
-          </motion.div>
-          <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
-            initial={{ opacity: 0}}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <motion.img
-              src={Img18}
-              className="md:h-[138px]   rounded-lg"
-              alt="Image 1"
-            />
-          </motion.div>
-          <motion.div
-            className="col-span-4 p-1 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-2"
-            initial={{ opacity: 0}}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <motion.img
-              src={Img5}
-              className=" md:h-[138px]  rounded-lg"
-              alt="Image 1"
-            />
-          </motion.div>
+  className="col-span-4 p-0.5 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-1"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+>
+  <motion.img
+    src={Img17}
+    className="md:h-[138px] rounded-lg"
+    alt="Image 1"
+  />
+</motion.div>
+<motion.div
+  className="col-span-4 p-0.5 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-1"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+>
+  <motion.img
+    src={Img18}
+    className="md:h-[138px] rounded-lg"
+    alt="Image 2"
+  />
+</motion.div>
+<motion.div
+  className="col-span-4 p-0.5 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content mt-1"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+>
+  <motion.img
+    src={Img5}
+    className="md:h-[138px] rounded-lg"
+    alt="Image 3"
+  />
+</motion.div>
+
         </div>
       </div>
 
