@@ -27,8 +27,8 @@ const Navbar = () => {
           <img src={Image3} className="w-22 h-14 mr-2" alt="Image2" />
           <img src={Image2} className="w-18 h-12 mr-3.5" alt="Image3" />
           <div className="font-dmsans font-bold md:text-2xl ml-5">
-            <span>N I R M A A N</span>
-            <div className="text-base">The Pre-Incubator</div>
+            <span> N I R M A A N </span>
+            <div className="text-base"> The Pre-Incubator </div>
           </div>
         </a>
 
