@@ -44,7 +44,7 @@ function Media(){
                             <a href="https://website-nirmaan.s3.ap-south-1.amazonaws.com/Magazine_Innosphere_Final+(6).pdf" target="_blank" rel="noopener noreferrer" // Replace with your actual PDF path
                             data-lity>                            
                             <center><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></center>
-                            </a>
+                            </a>   
               <div className="mt-4">
             </div>
                         </div>

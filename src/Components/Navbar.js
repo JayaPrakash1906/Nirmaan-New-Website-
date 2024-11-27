@@ -33,7 +33,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-10 mr-12 font-dmsans font-semibold text-sm">
+        <div className="hidden md:flex gap-8 mr-12 font-dmsans font-semibold text-sm">
   <button
     type="button"
     onClick={() => (window.location.href = "/")}
@@ -47,6 +47,13 @@ const Navbar = () => {
     className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md:pt-4 ${activePage === '/About_us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}
   >
     ABOUT
+  </button>
+  <button
+    type="button"
+    onClick={() => (window.location.href = "/genesis")}
+    className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md:pt-4 ${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800' : ''}`}
+  >
+    GENESIS
   </button>
   <div className="relative group">
     <button
