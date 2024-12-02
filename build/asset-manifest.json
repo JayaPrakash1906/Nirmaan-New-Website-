@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e5a9b51.css",
-    "main.js": "/static/js/main.f055874d.js",
+    "main.js": "/static/js/main.bacfb058.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Faculty Advisor Message.png": "/static/media/Faculty Advisor Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -69,11 +69,11 @@
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "index.html": "/index.html",
     "main.1e5a9b51.css.map": "/static/css/main.1e5a9b51.css.map",
-    "main.f055874d.js.map": "/static/js/main.f055874d.js.map",
+    "main.bacfb058.js.map": "/static/js/main.bacfb058.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e5a9b51.css",
-    "static/js/main.f055874d.js"
+    "static/js/main.bacfb058.js"
   ]
 }
