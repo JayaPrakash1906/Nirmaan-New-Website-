@@ -48,13 +48,13 @@ const Navbar = () => {
   >
     ABOUT
   </button>
-  <button
+  {/* <button
     type="button"
     onClick={() => (window.location.href = "/genesis")}
     className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md:pt-4 ${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800' : ''}`}
   >
     GENESIS
-  </button>
+  </button> */}
   <div className="relative group">
     <button
       type="button"
