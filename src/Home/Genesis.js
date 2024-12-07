@@ -7,6 +7,10 @@ import img3 from "../Assets/AadilKhan.jpg";
 import img4 from "../Assets/AshwanthBhat.jpg";
 import img5 from "../Assets/AnirudhSharma.jpg";
 import img6 from "../Assets/dr.richa_doms.png";
+import img7 from "../Assets/SambitMishra.jpg";
+import img8 from "../Assets/Faculty Advisor Message.png"
+import img9 from "../Assets/Harsha.jpg";
+import img10 from "../Assets/Yuvaraj_Thakur.jpg";
 import Footer from "../Components/Footer";
 
 const Timeline = () => {
@@ -25,13 +29,23 @@ const Timeline = () => {
     },
     {
       title: "JavaScript",
-      duration: "2017 - 2022",
+      duration: "2022 - 2023",
       description: "Enhanced web applications with dynamic interactions.",
       images: [
-        { src: img5, caption: "JavaScript Core", company: "Company Name 2" },
-        { src: img6, caption: "Modern JavaScript", company: "Company Name 2" },
+        { src: img6, caption: "  Dr. Richa Agrawal", company: "Advisor" },
+        { src: img7, caption: "Sai Bhargavi", company: "Student Head (2022-2023)" },
+      ],
+    },{
+      title: "JavaScript",
+      duration: "2023 - Present",
+      description: "Enhanced web applications with dynamic interactions.",
+      images: [
+        { src: img8, caption: "Prof. Prabhu Rajagopal", company: "Advisor" },
+        { src: img9, caption: "Harsha", company: "Student Head (2023-2024)" },
+        { src: img10, caption: "Yuvaraj Thakur", company: "Student Head (2024-2025)" },
       ],
     },
+
   ];
 
   return (
@@ -60,7 +74,7 @@ const Timeline = () => {
       </div>
 
       <div className="min-h-screen bg-gray-100 text-white flex flex-col items-center py-10">
-        <h1 className="text-4xl font-bold mb-10 text-black">My Skills</h1>
+        <h1 className="text-4xl font-bold mb-10 text-black">Genesis</h1>
         <div className="relative w-full max-w-6xl">
           <div className="absolute top-0 left-1/2 w-1 bg-gray-300 h-full transform -translate-x-1/2"></div>
           {skills.map((skill, index) => (
@@ -88,17 +102,20 @@ const Timeline = () => {
                         }`}
                       >
                         {/* Caption for Images */}
-                        <div className="text-start">
+                        <div className="text-center">
                            
-                          <img
-                            src={image.src}
-                            alt={`${skill.title} ${idx + 1}`}
-                            className="w-16 h-16 object-cover rounded-full border-2 border-gray-300"
-                          />
-                          <p className="text-sm font-semibold  text-gray-800">
+                        <div className="flex justify-center items-center">
+  <img
+    src={image.src}
+    alt={`${skill.title} ${idx + 1}`}
+    className="w-16 h-16 object-cover rounded-full border-2 border-gray-300"
+  />
+</div>
+
+                          <p className="text-sm font-semibold font-dmsans text-gray-800">
                             {image.caption}
                           </p> 
-                          <p className="text-1sm text-gray-600 mb-2 mr-3">{image.company}</p>
+                          <p className="text-sm font-dmsans text-gray-600 mb-2 mr-5">{image.company}</p>
                         </div>
                       </div>
                     ))}
