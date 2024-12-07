@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f88d3de.css",
-    "main.js": "/static/js/main.271d7a2f.js",
+    "main.js": "/static/js/main.42e7a315.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Faculty Advisor Message.png": "/static/media/Faculty Advisor Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -58,6 +58,7 @@
     "static/media/logo.png": "/static/media/logo.f16599fa73d3b6cade48.png",
     "static/media/AadilKhan.jpg": "/static/media/AadilKhan.bd4772b9be2c89b3ab6f.jpg",
     "static/media/logo-cogniphy.png": "/static/media/logo-cogniphy.0d5cb58edf1e2c75538c.png",
+    "static/media/Sai_Bhargavi.jpg": "/static/media/Sai_Bhargavi.e9ee50d781033637c791.jpg",
     "static/media/aptiv.png": "/static/media/aptiv.519441da63b001c53143.png",
     "static/media/FB.png": "/static/media/FB.cec7816e0e4be76696fa.png",
     "static/media/samad-jan2021pic3-942x1024-1-276x300.jpg": "/static/media/samad-jan2021pic3-942x1024-1-276x300.c2837d7a94ce8e8e343e.jpg",
@@ -68,11 +69,11 @@
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "index.html": "/index.html",
     "main.0f88d3de.css.map": "/static/css/main.0f88d3de.css.map",
-    "main.271d7a2f.js.map": "/static/js/main.271d7a2f.js.map",
+    "main.42e7a315.js.map": "/static/js/main.42e7a315.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f88d3de.css",
-    "static/js/main.271d7a2f.js"
+    "static/js/main.42e7a315.js"
   ]
 }
