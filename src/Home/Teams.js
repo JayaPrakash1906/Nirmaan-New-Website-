@@ -140,7 +140,7 @@ function Teams() {
                                 Founder: {selectedTeam.members_name || "-"}
                             </div>
                         </div>
-                        <p className="mt-4">
+                        <p className="mt-4"> 
                             <strong>Description:</strong>{" "}
                             {selectedTeam.description || "No description available"}
                         </p>

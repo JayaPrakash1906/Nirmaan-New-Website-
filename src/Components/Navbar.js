@@ -131,6 +131,7 @@ const Navbar = () => {
         <div className="flex flex-col gap-6 mt-4 text-center font-dmsans font-semibold text-sm">
           <button onClick={() => (window.location.href = "/")} className={`${activePage === '/' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>HOME</button>
           <button onClick={() => (window.location.href = "/About_us")} className={`${activePage === '/About_us' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>ABOUT</button>
+          <button onClick={() => (window.location.href = "/genesis")} className={`${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>GENESIS</button>
           <button onClick={() => (window.location.href = "/incubation")} className={`${activePage === '/incubation' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>PRE-INCUBATION</button>
           <button onClick={() => (window.location.href = "/scholarship")} className={`${activePage === '/scholarship' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>SCHOLARSHIP</button>
           <button onClick={() => (window.location.href = "/events")} className={`${activePage === '/events' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>EVENTS</button>

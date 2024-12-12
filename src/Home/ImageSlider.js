@@ -826,7 +826,7 @@
 //                   className="text-md flex flex-col items-start "
 //                   style={{ fontSize: "16px" }}
 //                 >
-//                   <div className="flex items-center  mt-24">
+//                   <div className="flex items-center  mt-24 ">
 //                     <CiMail className="mr-2 h-6 w-6" />
 
 //                     <span>nirmaan@smail.iitm.ac.in</span>

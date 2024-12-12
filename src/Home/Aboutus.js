@@ -72,7 +72,7 @@ const Team = () => {
         {/* First row with 4 members */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
           {teamMembers.slice(0, 5).map((member, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className="text-center"> 
               <img
                 src={member.image}
                 alt={member.name}
