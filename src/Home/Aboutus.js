@@ -134,7 +134,7 @@ const Aboutus = () => {
       <Navbar />
       <div>
         <div className="mt-[88px] font-dmsans">
-          <div className="bg-green-100">
+          <div className="bg-green-100"> 
             <div className="p-5 flex">
               <span>
                 <a href="/" className="text-gray-500 font-semibold hover:underline">Home</a>
@@ -214,3 +214,4 @@ const Aboutus = () => {
 }
 
 export default Aboutus;
+        

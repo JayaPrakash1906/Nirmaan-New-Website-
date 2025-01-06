@@ -8,7 +8,7 @@ import img4 from "../Assets/AshwanthBhat.jpg";
 import img5 from "../Assets/AnirudhSharma.jpg";
 import img6 from "../Assets/dr.richa_doms.png";
 import img7 from "../Assets/Sai_Bhargavi.jpg";
-import img8 from "../Assets/Faculty Advisor Message.png"
+import img8 from "../Assets/Faculty Advisor Message.png";
 import img9 from "../Assets/Harsha.jpg";
 import img10 from "../Assets/Yuvaraj_Thakur.jpg";
 import Footer from "../Components/Footer";
