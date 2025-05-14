@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Navbar from "../Components/Navbar";
 import img from "../Assets/newsletter1.png";
 import img1 from "../Assets/newsletter2.png";
@@ -14,6 +14,7 @@ import img11 from "../Assets/demoday director.png";
 import img12 from "../Assets/DemoDay2024.png";
 import img13 from "../Assets/team2.png";
 import img14 from "../Assets/team3.jpeg";
+import img15 from "../Assets/news15.webp";
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 function Media(){
@@ -149,6 +150,14 @@ function Media(){
                                     </div>
                                     <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">
+                                                <img src={img15} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Space startup GalaxyEye, started by  IIT Madras alumni,eyes private satellite launch in 2025</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://economictimes.indiatimes.com/tech/startups/space-startup-galaxeye-started-by-iit-madras-alumni-eyes-private-satellite-launch-in-2025/articleshow/112780639.cms?from=mdr"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
                                                 <img src={img7} className="max-h-40 h-70 w-50  my-5 mx-10"/>
                                         </div>
                                         <div className="ps-5 font-semibold text-md">E-Cell, IITM Zanzibar mentions Nirmaan on its official LinkedIn page </div>
@@ -163,6 +172,7 @@ function Media(){
                                         <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
                                         <center><a href="http://rtbi.in/incubationiitm/about-us/ecosystem.html"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
                                     </div>
+
                                     
                                     
                         </div>

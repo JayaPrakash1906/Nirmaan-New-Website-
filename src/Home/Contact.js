@@ -46,7 +46,7 @@ function Contact() {
                         ></textarea>
                     </div>
                     <div className="flex justify-end md:col-span-2">
-                        <button className="mt-6 bg-green-600 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-400 transition mb-6">
+                        <button className="mt-6 bg-green-600 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-400 transition mb-7">
                             Submit
                         </button>
                     </div>

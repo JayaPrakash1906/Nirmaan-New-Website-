@@ -58,23 +58,24 @@ const Navbar = () => {
   <div className="relative group">
     <button
       type="button"
-      className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md:pt-4 ${activePage.includes('incubation') || activePage.includes('scholarship') ? 'border-b-2 border-green-800 text-green-800' : ''}`}
+      onClick={() => (window.location.href = "/incubation")}
+      className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md:pt-4 ${activePage.includes('incubation') ? 'border-b-2 border-green-800 text-green-800' : ''}`}
     >
-      PROGRAMS
+      PRATHAM & AKSHAR
     </button>
     <div className="absolute hidden bg-white text-black mt-1 shadow-lg rounded-sm group-hover:block right-[-39px] border-t-4 border-green-700">
-      <button
+      {/* <button
         className="block px-1 py-2 text-sm hover:bg-gray-200 w-full text-left"
         onClick={() => (window.location.href = "/incubation")}
       >
-        PRE-INCUBATION
-      </button>
-      <button
+        
+      </button> */}
+      {/* <button
         className="block py-2 text-sm hover:bg-gray-200 w-full text-left mr-8 ml-1"
         onClick={() => (window.location.href = "/scholarship")}
       >
         SCHOLARSHIP
-      </button>
+      </button> */}
     </div>
   </div>
   <button
@@ -132,15 +133,15 @@ const Navbar = () => {
           <button onClick={() => (window.location.href = "/")} className={`${activePage === '/' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>HOME</button>
           <button onClick={() => (window.location.href = "/About_us")} className={`${activePage === '/About_us' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>ABOUT</button>
           <button onClick={() => (window.location.href = "/genesis")} className={`${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>GENESIS</button>
-          <button onClick={() => (window.location.href = "/incubation")} className={`${activePage === '/incubation' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>PRE-INCUBATION</button>
-          <button onClick={() => (window.location.href = "/scholarship")} className={`${activePage === '/scholarship' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>SCHOLARSHIP</button>
+          <button onClick={() => (window.location.href = "/incubation")} className={`${activePage === '/incubation' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>PRATHAM & AKSHAR</button>
+          {/* <button onClick={() => (window.location.href = "/scholarship")} className={`${activePage === '/scholarship' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>SCHOLARSHIP</button> */}
           <button onClick={() => (window.location.href = "/events")} className={`${activePage === '/events' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>EVENTS</button>
           <button onClick={() => (window.location.href = "/teams")} className={`${activePage === '/teams' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>TEAMS</button>
           <button onClick={() => (window.location.href = "/mentor")} className={`${activePage === '/mentor' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>MENTORS</button>
           <button onClick={() => (window.location.href = "/media")} className={`${activePage === '/media' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>MEDIA</button>
           <button onClick={() => (window.location.href = "/contact-us")} className={`${activePage === '/contact-us' ? 'border-b-2 border-green-800 text-green-800 w-1/2 mx-auto' : ''}`}>CONTACT</button>
         
-
+        
         </div>
       </div>
     </div>

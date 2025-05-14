@@ -13,11 +13,11 @@ const Footer = () => {
         }}
       >
         {/* Contact, Quick Links, and Socials */}
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-8 px-8 py-6 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-8 px-8 py-6 text-white font-dmsans">
           {/* Contact Section */}
           <div>
             <h3 className="font-semibold mt-4 mb-3">Contact</h3>
-            <div className="flex items-start text-sm">
+            <div className="flex items text-sm">
               <FaEnvelope className="mr-2 h-5 w-5" />
               <span>Nirmaan@smail.iitm.ac.in</span>
             </div>
@@ -29,11 +29,11 @@ const Footer = () => {
                 <p>600036, India</p>
               </div>
             </div>
-          </div>
+          </div>  
 
           {/* Quick Links Section */}
           <div>
-            <h3 className="font-semibold mt-4 mb-3">Quick Links</h3>
+            <h3 className="font-semibold mt-4 mb-3 font-dmsans">Quick Links</h3>
             <div className="grid grid-cols-1 gap-2 text-sm">
               <a href="/media" className="hover:underline" >Blog</a>
               <a href="/media" className="hover:underline">Innosphere Podcast</a>
@@ -43,7 +43,7 @@ const Footer = () => {
 
           {/* Social Media Links */}
           <div>
-            <h3 className="font-semibold mt-4 mb-3">Follow Us</h3>
+            <h3 className="font-semibold mt-4 mb-3 font-dmsans">Follow Us</h3>
             <div className="flex space-x-6 mt-4"target="_blank" >
               <a href="https://www.linkedin.com/company/nirmaan-iitm/" target="_blank" rel="noopener noreferrer"  aria-label="LinkedIn">
                 <FaLinkedin className="h-6 w-6 hover:text-gray-400" />
@@ -63,13 +63,13 @@ const Footer = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="text-center text-white bg-green-900 py-3">
+      <div className="text-center text-white bg-green-900 py-3 font-dmsans">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Designed by Nirmaan Team
         </p>
       </div>
     </div>
-  );
+  );  
 };
 
 export default Footer;

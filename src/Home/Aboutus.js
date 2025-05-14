@@ -67,7 +67,7 @@ const Team = () => {
 
   return (
     <div className="bg-gray-200 py-8 px-4">
-      <h2 className='text-center text-2xl mt-2 mb-4 text-dmsans font-bold text-green-600'>Advisory Board Members</h2>
+      <h2 className='text-center text-2xl mt-2 mb-4 text-dmsans font-bold text-green-600 font-dmsans'>Advisory Board Members</h2>
       <div className="max-w-7xl mx-auto space-y-8">
         {/* First row with 4 members */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
@@ -88,7 +88,7 @@ const Team = () => {
         </div>
 
         {/* Second row with 3 members */}
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600'>Faculty Advisor</h2>
+        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600 font-dmsans'>Faculty Advisor</h2>
         <div className="grid grid-cols-1 gap-8 px-4 sm:px-14">
           {teamMembers.slice(5, 6).map((member, index) => (
             <div key={index} className="text-center">
@@ -106,7 +106,7 @@ const Team = () => {
           ))}
         </div>
 
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600'>Management</h2>
+        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600 font-dmsans'>Management</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 px-4 sm:px-14">
           {teamMembers.slice(6, 8).map((member, index) => (
             <div key={index} className="text-center">

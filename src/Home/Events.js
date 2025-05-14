@@ -51,7 +51,7 @@ function Events() {
             </div>
 
             {/* View More Button to Show PDF in Lity Modal */}
-            <div className="mt-4">
+            <div className="mt-4 mb-12">
               <a
                 href="https://resume-data-nirmaan.s3.ap-south-1.amazonaws.com/Demo+Day+Ag.pdf" // Replace with your actual PDF path
                 data-lity
