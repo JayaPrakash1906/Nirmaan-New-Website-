@@ -4,7 +4,7 @@ import { FaMoneyBillTransfer } from 'react-icons/fa6';
 const Eligibility = () => {
   return (
     <section className="mb-12 rounded-lg shadow-lg p-8" style={{backgroundColor: '#83d687'}}>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 font-dmsans">
         <div className="bg-white rounded-lg shadow-md p-6 text-center transform transition-transform hover:scale-105">
           <div className="mb-4">
             <FaBuilding size={40} className="text-green-600 mx-auto" />

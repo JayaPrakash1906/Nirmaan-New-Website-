@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight, FaClock } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
-import demo from '../Assets/DemoDay2024.png';
+import demo from '../Assets/Events/DemoDay2024.png';
 import 'lity/dist/lity.css'; // Import Lity styles
 import lity from 'lity';     // Import Lity functionality
 
@@ -11,7 +11,7 @@ function Events() {
   return (
     <div>
       <Navbar />
-      <div className="mt-[88px] font-dmsans">
+      <div className="md:mt-[80px] font-dmsans">
         <div className="bg-green-100">
           <div className="pt-5 pl-5 flex">
             <span>
@@ -51,7 +51,7 @@ function Events() {
             </div>
 
             {/* View More Button to Show PDF in Lity Modal */}
-            <div className="mt-4 mb-12">
+            <div className="mt-4 mb-14">
               <a
                 href="https://resume-data-nirmaan.s3.ap-south-1.amazonaws.com/Demo+Day+Ag.pdf" // Replace with your actual PDF path
                 data-lity

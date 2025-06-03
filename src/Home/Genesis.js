@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import img1 from "../Assets/satyaseshadri.png";
-import img2 from "../Assets/SambitMishra.jpg";
-import img3 from "../Assets/AadilKhan.jpg";
-import img4 from "../Assets/AshwanthBhat.jpg";
-import img5 from "../Assets/AnirudhSharma.jpg";
-import img6 from "../Assets/dr.richa_doms.png";
-import img7 from "../Assets/Sai_Bhargavi.jpg";
-import img8 from "../Assets/Faculty Advisor Message.png";
-import img9 from "../Assets/Harsha.jpg";
-import img10 from "../Assets/Yuvaraj_Thakur.jpg";
+import img1 from "../Assets/Genisis/satyaseshadri.png";
+import img2 from "../Assets/Genisis/SambitMishra.jpg";
+import img3 from "../Assets/Genisis/AadilKhan.jpg";
+import img4 from "../Assets/Genisis/AshwanthBhat.jpg";
+import img5 from "../Assets/Genisis/AnirudhSharma.jpg";
+import img6 from "../Assets/Genisis/dr.richa_doms.png";
+import img7 from "../Assets/Genisis/Sai_Bhargavi.jpg";
+import img8 from "../Assets/Genisis/Advisor_Message.png";
+import img9 from "../Assets/Genisis/Harsha.jpg";
+import img10 from "../Assets/Genisis/Yuvaraj_Thakur.jpg";
 import Footer from "../Components/Footer";
 
 const Timeline = () => {
@@ -20,7 +20,7 @@ const Timeline = () => {
       duration: "2017 - 2022",
       description: "Learned foundational web structure using HTML.",
       images: [
-        { src: img1, caption: "Dr. Satyanarayanan Seshadri", company: "Advisor" },
+        { src: img1, caption: "Prof. Satyanarayanan Seshadri", company: "Advisor" },
         { src: img2, caption: "Sambit Mishra", company: "Student Head (2017-2018)" },
         { src: img3, caption: " Aadil Khan", company: "Student Head (2018-2020)" },
         { src: img4, caption: " Ashwath Bhat", company: "Student Head (2020-2021)" },
@@ -32,7 +32,7 @@ const Timeline = () => {
       duration: "2022 - 2023",
       description: "Enhanced web applications with dynamic interactions.",
       images: [
-        { src: img6, caption: "  Dr. Richa Agrawal", company: "Advisor" },
+        { src: img6, caption: "  Prof. Richa Agrawal", company: "Advisor" },
         { src: img7, caption: "Sai Bhargavi", company: "Student Head (2022-2023)" },
       ],
     },{
@@ -51,7 +51,7 @@ const Timeline = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-[88px] font-dmsans">
+      <div className="md:mt-[80px] font-dmsans">
         <div className="bg-green-100">
           <div className="p-5 flex">
             <span>

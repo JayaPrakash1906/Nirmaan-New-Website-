@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
-import Img9 from '../Assets/scholarship-image.png';
 import Footer from '../Components/Footer';
 
 function ScholarShip() {

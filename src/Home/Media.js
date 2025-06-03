@@ -1,20 +1,25 @@
  import React from "react";
 import Navbar from "../Components/Navbar";
-import img from "../Assets/newsletter1.png";
-import img1 from "../Assets/newsletter2.png";
-import img2 from "../Assets/newsletter3.png";
-import img3 from "../Assets/Magazine_Innosphere_Final (19).jpg";
-import img4 from "../Assets/InnospherePodcast.jpeg";
-import img6 from "../Assets/medium.png";
-import img7 from "../Assets/E-cell-iitm.jpeg";
-import img8 from "../Assets/incubation-researchpark-media.png";
-import img9 from "../Assets/team1.png";
-import img10 from "../Assets/demoday 1.jpeg";
-import img11 from "../Assets/demoday director.png";
-import img12 from "../Assets/DemoDay2024.png";
-import img13 from "../Assets/team2.png";
-import img14 from "../Assets/team3.jpeg";
-import img15 from "../Assets/news15.webp";
+import img from "../Assets/Media/newsletter1.png";
+import img1 from "../Assets/Media/newsletter2.png";
+import img2 from "../Assets/Media/newsletter3.png";
+import img3 from "../Assets/Media/Magazine_Innosphere_Final (19).jpg";
+import img4 from "../Assets/Media/InnospherePodcast.jpeg";
+import img6 from "../Assets/Media/medium.png";
+import img7 from "../Assets/Media/E-cell-iitm.jpeg";
+import img8 from "../Assets/Media/incubation-researchpark-media.png";
+import img9 from "../Assets/Media/team1.png";
+import img10 from "../Assets/Media/demoday 1.jpeg";
+import img11 from "../Assets/Media/demoday director.png";
+import img12 from "../Assets/Media/DemoDay2024.png";
+import img13 from "../Assets/Media/team2.png";
+import img14 from "../Assets/Media/team3.jpeg";
+import img15 from "../Assets/Media/news15.webp";
+import img16 from "../Assets/Media/Inboud_aerospace.jpg";
+import img17 from '../Assets/Media/Electrawheeler.png';
+import img18 from '../Assets/Media/bluegreen_achievments.jpg';
+import img19 from '../Assets/Media/susstains.jpg';
+import img20 from '../Assets/Media/zeex.jpg';
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 function Media(){
@@ -22,7 +27,7 @@ function Media(){
         <div>
             <Navbar />
 
-            <div className="mt-[88px] font-dmsans">
+            <div className="md:mt-[80px] font-dmsans">
                 <div className="bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Media</span></div>
                         <h2 className="text-5xl font-semibold text-green-600 pt-8 pb-5 text-center">Outreach initiative</h2>
@@ -158,11 +163,51 @@ function Media(){
                                     </div>
                                     <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">
+                                                <img src={img17} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Electra Wheeler is proud to be recognized by Hon. Minister Piyush Goyal at the ULIP Logistics Hackathon finals for our innovation in sustainable logistics.</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://www.linkedin.com/posts/electra-wheeler_team-electra-wheeler-being-honored-by-mr-activity-7277618967857295361-xDxk?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img18} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Massive kudos to Asteria Aerospace’s rockstar CTO, Vishnu Vardhan K K, for clinching four 1st prizes—Albertian Expo, Lumen’25 (State), Poly Expo’25 (All India), and Technovum’25 (State)—total domination!</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://www.linkedin.com/posts/team-bluegreen_today-is-an-appreciation-post-for-our-beloved-activity-7318271446747631617-XLvw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img19} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Thrilled to be one of three winners of ArcelorMittal’s #XCarb India Accelerator, where our #biochar showed promise as a #coal alternative—thanks to ArcelorMittal and GDC Team IIT Madras!</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://www.manufacturingtodayindia.com/arcelormittals-xcarb-india-announces-climate-tech-startup-winners"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img20} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">ZEEX AI proudly clinches Best Pitch and E-Awards at E-Summit, securing 2nd place overall—marking a major milestone in our journey of AI-driven innovation! </div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://www.linkedin.com/posts/zeex-ai_zeexai-innovation-entrepreneurship-activity-7303703734755172353-4-T-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
                                                 <img src={img7} className="max-h-40 h-70 w-50  my-5 mx-10"/>
                                         </div>
                                         <div className="ps-5 font-semibold text-md">E-Cell, IITM Zanzibar mentions Nirmaan on its official LinkedIn page </div>
                                         <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
                                         <center><a href="https://www.linkedin.com/posts/e-cell-zanzibar_entrepreneurship-startups-innovation-activity-7200939813716299776-uVyO/"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                      <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img16} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md"> Meet The 24 Indian Startups Which Made Into AWS Space Accelerator’s List</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 17, 2024</div>
+                                        <center><a href="https://inc42.com/buzz/meet-the-24-indian-startups-which-made-into-aws-first-space-accelerators-list/"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
                                     </div>
                                     <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">

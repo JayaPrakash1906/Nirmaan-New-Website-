@@ -41,7 +41,7 @@ function Incubation() {
       <Navbar />
 
       {/* Main Content */}
-      <section className=" mt-[85px]">
+      <section className=" md:mt-[80px]">
       <div className="bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <a className="text-black font-semibold" href="/incubation">Pre-Incubation</a></div>
                         <h2 className="md:text-5xl font-semibold text-green-600 pt-8 pb-3 text-center sm:text-3xl">Pre-Incubation Program</h2>

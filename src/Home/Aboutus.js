@@ -1,31 +1,41 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import img1 from '../Assets/what we do image.jpg';
-import img2 from '../Assets/BobyGeorge.jpg';
-import img3 from '../Assets/satyaseshadri.png';
-import img4 from '../Assets/u3ryrzl7506qix6ydqph.webp';
-import img5 from '../Assets/chirag.png'; 
-import img6 from "../Assets/Faculty Advisor Message.png"
-import img7 from '../Assets/Nandhini.jpeg';
-import img8 from '../Assets/student.jpeg';
-import img9 from '../Assets/vishy.jpg';
-import img10 from '../Assets/ourgoal.jpg';
+import img1 from '../Assets/About/what we do image.jpg';
+import img2 from '../Assets/About/BobyGeorge.jpg';
+import img3 from '../Assets/About/satyaseshadri.png';
+import img4 from '../Assets/About/tamoshwathi.webp';
+import img5 from '../Assets/About/chirag.jpeg'; 
+import img6 from "../Assets/About/Advisor_Message.png"
+import img7 from '../Assets/About/Nandhini.jpeg';
+import img8 from '../Assets/About/Yuvaraj_Thakur.jpg';
+import img9 from '../Assets/About/vishy.jpg';
+import img10 from '../Assets/About/ourgoal.jpg';
+import img11 from '../Assets/About/ashwin-mahalingam.jpg'
 import Footer from '../Components/Footer';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
 const Team = () => {
   const teamMembers = [ 
     {
-      name: "Dr. Boby George",
+      name: "Prof. Boby George",
       title: "Professor",
+      department: "Department of Electrical Engineering",
       organisation: 'IIT Madras',
       image: img2,
     },
     {
-      name: "Dr. Satyanarayanan Seshadri",
+      name: "Prof. Satyanarayanan Seshadri",
       title: "Associate Professor",
+      department: "Dept of Applied Mechanics",
       organisation: 'IIT Madras',
       image: img3,
+    },
+    {
+      name: "Prof. Ashwin Mahalingam",
+      title: "Professor",
+      department: "Department of Civil Engineering",
+      organisation: 'IIT Madras',
+      image: img11,
     },
     {
       name: "Dr. Tamaswati Ghosh",
@@ -46,14 +56,13 @@ const Team = () => {
       image: img9,
     },
     {
-      name: "Dr. Prabhu Rajagopal",
-      // title: "Faculty Advisor",
+      name: "Prof. Prabhu Rajagopal",
       organisation: 'Office of Innovation & Entrepreneurship',
       image: img6,
     },
     {
-      name: "Nandhini K S",
-      title: `Manager`,
+      name: "K S Nandhini",
+      title: "Manager",
       organisation: 'Office of Innovation & Entrepreneurship',
       image: img7,
     },
@@ -66,63 +75,83 @@ const Team = () => {
   ];
 
   return (
-    <div className="bg-gray-200 py-8 px-4">
-      <h2 className='text-center text-2xl mt-2 mb-4 text-dmsans font-bold text-green-600 font-dmsans'>Advisory Board Members</h2>
-      <div className="max-w-7xl mx-auto space-y-8">
-        {/* First row with 4 members */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
-          {teamMembers.slice(0, 5).map((member, index) => (
-            <div key={index} className="text-center"> 
-              <img
-                src={member.image}
-                alt={member.name}
-                className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mb-4"
-              />
-              <h3 className="text-md font-semibold text-green-600">
-                {member.name}
-              </h3>
-              <p className="text-gray-600 font-semibold">{member.title}</p>
-              <p className="text-gray-600">{member.organisation}</p>
-            </div>
-          ))}
-        </div>
+    <div className="bg-gray-200 py-8 px-4 font-dmsans">
+      <h2 className='text-center text-2xl mt-2 mb-6 font-bold text-green-600'>Advisory Board Members</h2>
 
-        {/* Second row with 3 members */}
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600 font-dmsans'>Faculty Advisor</h2>
-        <div className="grid grid-cols-1 gap-8 px-4 sm:px-14">
-          {teamMembers.slice(5, 6).map((member, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={member.image}
-                alt={member.name}
-                className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mb-4 object-top"
-              />
-              <h3 className="text-xl font-semibold text-green-600">
-                {member.name}
-              </h3>
-              <p className="text-gray-600 font-semibold">{member.title}</p>
-              <p className="text-gray-600">{member.organisation}</p>
-            </div>
-          ))}
-        </div>
+      {/* Advisory Board Members */}
+<div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-4 justify-items-center">
+        {teamMembers.slice(0, 6).map((member, index) => (
+          <div key={index} className="flex flex-col items-center w-60">
+            <img
+              src={member.image}
+              alt={member.name}
+              className="w-32 h-32 rounded-full object-cover mb-3"
+            />
+            <p className="text-green-600 font-semibold text-md text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+              {member.name}
+            </p>
+            {index < 3 ? (
+              <>
+                <p className="text-gray-600 font-medium text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+                  {member.title}
+                </p>
+                <p className="text-gray-600 text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+                  {member.department}
+                </p>
+                <p className="text-gray-600 text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+                  {member.organisation}
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="text-gray-600 font-medium text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+                  {member.title}
+                </p>
+                <p className="text-gray-600 text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis w-full">
+                  {member.organisation}
+                </p>
+              </>
+            )}
+          </div>
+        ))}
+      </div>
 
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600 font-dmsans'>Management</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 px-4 sm:px-14">
-          {teamMembers.slice(6, 8).map((member, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={member.image}
-                alt={member.name}
-                className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mb-4 object-top"
-              />
-              <h3 className="text-xl font-semibold text-green-600">
-                {member.name}
-              </h3>
-              <p className="text-gray-600 font-semibold">{member.title}</p>
-              <p className="text-gray-600">{member.organisation}</p>
-            </div>
-          ))}
-        </div>
+      {/* Faculty Advisor */}
+      <h2 className='text-center text-2xl mt-10 mb-4 font-bold text-green-600'>Faculty Advisor</h2>
+      <div className="grid grid-cols-1 gap-8 px-4 sm:px-14">
+        {teamMembers.slice(6, 7).map((member, index) => (
+          <div key={index} className="text-center">
+            <img
+              src={member.image}
+              alt={member.name}
+              className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mb-4 object-top"
+            />
+            <h3 className="text-xl font-semibold text-green-600">
+              {member.name}
+            </h3>
+            <p className="text-gray-600 font-semibold">{member.title}</p>
+            <p className="text-gray-600">{member.organisation}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Management */}
+      <h2 className='text-center text-2xl mt-10 mb-4 font-bold text-green-600'>Management</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 px-4 sm:px-14">
+        {teamMembers.slice(7, 9).map((member, index) => (
+          <div key={index} className="text-center">
+            <img
+              src={member.image}
+              alt={member.name}
+              className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mb-4 object-top"
+            />
+            <h3 className="text-xl font-semibold text-green-600 font-dmsans">
+              {member.name}
+            </h3>
+            <p className="text-gray-600 font-semibold font-dmsans">{member.title}</p>
+            <p className="text-gray-600 font-dmsans">{member.organisation}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -133,7 +162,7 @@ const Aboutus = () => {
     <div>
       <Navbar />
       <div>
-        <div className="mt-[88px] font-dmsans">
+        <div className="md:mt-[80px]  font-dmsans">
           <div className="bg-green-100"> 
             <div className="p-5 flex">
               <span>

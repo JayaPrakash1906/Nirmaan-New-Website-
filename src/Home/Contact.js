@@ -7,14 +7,14 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            <div className="mt-[88px] font-dmsans">
+            <div className="md:mt-[80px] font-dmsans">
                 <div className="bg-green-100">
                     <div className="pt-5 pl-5 flex">
                         <span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span>
                         <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/> </span>
                         <span className="text-black font-semibold">Contact us</span>
                     </div>
-                    <h2 className="md:text-5xl font-semibold text-green-600 pt-7 pb-6 text-center sm:text-3xl">Contact us</h2>
+                    <h2 className="md:text-5xl font-semibold text-green-600 pt-7 pb-6 text-center sm:text-4xl">Contact us</h2>
                 </div>
 
                 <div id="form-input" className="grid gap-4 px-4 py-6 md:grid-cols-2 md:px-[200px]">
@@ -46,10 +46,11 @@ function Contact() {
                         ></textarea>
                     </div>
                     <div className="flex justify-end md:col-span-2">
-                        <button className="mt-6 bg-green-600 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-400 transition mb-7">
+                        <button className="mt-6 bg-green-600 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-400 transition mb-9">
                             Submit
                         </button>
                     </div>
+                    
                 </div>
             </div>
             <Footer />

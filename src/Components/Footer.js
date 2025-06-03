@@ -25,8 +25,8 @@ const Footer = () => {
               <FaLocationDot className="mr-2 h-5 w-5" />
               <div>
                 <p>Sudha & Shankar Innovation Hub</p>
-                <p>IIT Madras, Chennai</p>
-                <p>600036, India</p>
+                <p>Indian Institute of Technology Madras</p>
+                <p>Chennai - 600036, India</p>
               </div>
             </div>
           </div>  
