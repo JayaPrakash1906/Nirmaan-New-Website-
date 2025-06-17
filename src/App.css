@@ -2,66 +2,88 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth marquee animation */
 @keyframes marquee {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
-  }
-  
-  .animate-marquee {
-    animation: marquee 40s linear infinite;
-  }
-  
-  .content {
-    /* transform: scale(0.8);
-    opacity: 0.2;
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-    z-index: auto; */
-    animation: fade-in 1.0s;
-  }
- 
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateX(100px);
-    }
-    to {
-      opacity: 100;
-    }
-  }
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
 
-  .content-left {
-    animation: slide-in-left 1.0s ease-out forwards;
-  }
-  
-  /* Keyframes for sliding in from the left */
-  @keyframes slide-in-left {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
 
-  .content-bottom {
-    animation: slide-in-bottom 1.5s ease-out forwards;
-  }
-  
-  /* Keyframes for sliding in from the bottom */
-  @keyframes slide-in-bottom {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+/* Smooth fade-in animation with easing */
+.content {
+  animation: fade-in 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+/* Smooth slide-in from left animation */
+.content-left {
+  animation: slide-in-left 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Smooth slide-in from bottom animation */
+.content-bottom {
+  animation: slide-in-bottom 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Add smooth transitions for all interactive elements */
+button, a, img, .hover\:scale-105 {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth hover effects */
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Smooth image transitions */
+img {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth background transitions */
+.bg-opacity-25 {
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
   
   

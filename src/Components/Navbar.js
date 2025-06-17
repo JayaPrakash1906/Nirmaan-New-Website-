@@ -81,7 +81,7 @@ const Navbar = () => {
 
           <button onClick={() => (window.location.href = "/media")} className={`md:pt-4 ${activePage === '/media' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>MEDIA</button>
           <button onClick={() => (window.location.href = "/contact-us")} className={`md:pt-4 ${activePage === '/contact-us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>CONTACT</button>
-          <div className="relative">
+          {/* <div className="relative">
             <button
               type="button"
               onClick={() => setOtherDropdownOpen((prev) => !prev)}
@@ -92,10 +92,10 @@ const Navbar = () => {
             {otherDropdownOpen && (
               <div className="absolute bg-white text-black mt-1 shadow-lg rounded-sm right-[-20px] border-t-4 border-green-700 z-50">
                 <button className="block py-2 px-4 text-sm hover:bg-gray-200 w-full text-left whitespace-nowrap" onClick={() => handleMentorClick("https://docs.google.com/forms/d/e/1FAIpQLSezO0mLM9d7UtiMRD7-b3qyNJo3RK_GGjoeXv4YmJFk9N0rqg/viewform?usp=header")}>Apply For Team Bonafide</button>
-              {/* <button className="block py-2 px-4 text-sm hover:bg-gray-200 w-full text-left whitespace-nowrap" onClick={() => handleMentorClick("/mentor/business")}>Business Mentor</button> */}
+               <button className="block py-2 px-4 text-sm hover:bg-gray-200 w-full text-left whitespace-nowrap" onClick={() => handleMentorClick("/mentor/business")}>Business Mentor</button> 
               </div>
             )}
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Toggle Button */}
@@ -133,7 +133,7 @@ const Navbar = () => {
 
           <button onClick={() => handleMentorClick("/media")}>MEDIA</button>
           <button onClick={() => handleMentorClick("/contact-us")}>CONTACT</button>
-          <div className="w-full flex flex-col items-end">
+          {/* <div className="w-full flex flex-col items-end">
             <button onClick={() => setMobileOtherOpen(prev => !prev)}>
               RESOURCES {mobileOtherOpen ? '▲' : '▼'}
             </button>
@@ -143,7 +143,7 @@ const Navbar = () => {
               
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
