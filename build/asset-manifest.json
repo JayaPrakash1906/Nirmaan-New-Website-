@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1494e869.css",
-    "main.js": "/static/js/main.e684ffc3.js",
+    "main.js": "/static/js/main.5bb83312.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -94,16 +94,16 @@
     "static/media/Yuvaraj_Thakur.jpg": "/static/media/Yuvaraj_Thakur.507511baded7aebfb0b6.jpg",
     "static/media/Bhaskara Enginering services.jpeg": "/static/media/Bhaskara Enginering services.d32dd7f780e02d0e528e.jpeg",
     "static/media/tamoshwathi.webp": "/static/media/tamoshwathi.24adcc0237f448daa88d.webp",
+    "index.html": "/index.html",
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
-    "index.html": "/index.html",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.1494e869.css.map": "/static/css/main.1494e869.css.map",
-    "main.e684ffc3.js.map": "/static/js/main.e684ffc3.js.map",
+    "main.5bb83312.js.map": "/static/js/main.5bb83312.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1494e869.css",
-    "static/js/main.e684ffc3.js"
+    "static/js/main.5bb83312.js"
   ]
 }
