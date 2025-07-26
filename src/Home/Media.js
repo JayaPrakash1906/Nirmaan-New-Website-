@@ -20,6 +20,8 @@ import img17 from '../Assets/Media/Electrawheeler.png';
 import img18 from '../Assets/Media/bluegreen_achievments.jpg';
 import img19 from '../Assets/Media/susstains.jpg';
 import img20 from '../Assets/Media/zeex.jpg';
+import img21 from "../Assets/Media/plenome.jpg"
+import img22 from "../Assets/Media/inbound aerospace.jpg";
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 function Media(){
@@ -75,6 +77,22 @@ function Media(){
                 <div className="mt-7">
                         <div className="text-3xl text-center text-green-600 font-semibold">Media Coverage</div>
                         <div className="md:grid md:grid-cols-3 px-10 mt-5 md:gap-10 my-10">
+                                <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img22} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Inbound Aerospace, one of the startups incubated at the IITM Incubation Cell, has successfully raised $1 million in funding.</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: july 25, 2025</div>
+                                        <center><a href="https://www.linkedin.com/posts/iitm-incubation-cell_funding-autonomous-microgravity-activity-7354036021623222273-wD1w?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img21} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">Plenome Technologies has secured ₹6.5 crore in seed funding!</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: july 25, 2025</div>
+                                        <center><a href="https://www.linkedin.com/posts/reachiitm_iitmadras-deeptech-plenome-activity-7353759548718923776-SrJe?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
                         <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">
                                                 <img src={img14} className="max-h-40 h-70 w-50  my-5 mx-10"/>

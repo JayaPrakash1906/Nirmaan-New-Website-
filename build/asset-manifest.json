@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1494e869.css",
-    "main.js": "/static/js/main.5bb83312.js",
+    "main.js": "/static/js/main.80f45f01.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -32,10 +32,12 @@
     "static/media/team1.png": "/static/media/team1.fbe6d03acf4127081a9e.png",
     "static/media/dr.richa_doms.png": "/static/media/dr.richa_doms.3c35e449a08215585327.png",
     "static/media/Gopal.JPG": "/static/media/Gopal.0ed49581f863befef82e.JPG",
+    "static/media/plenome.jpg": "/static/media/plenome.a8f5af830ef8b69258f5.jpg",
     "static/media/newsletter2.png": "/static/media/newsletter2.a439aa646600bc792d43.png",
     "static/media/image.jpg": "/static/media/image.3524bf349add5d731c0a.jpg",
     "static/media/5.jpg": "/static/media/5.a1d28d2c81ba946d4c7d.jpg",
     "static/media/Nandhini.jpeg": "/static/media/Nandhini.2b5be7ce3ba3bb1f2e48.jpeg",
+    "static/media/inbound aerospace.jpg": "/static/media/inbound aerospace.4b1b622c60c0d5b5c023.jpg",
     "static/media/6.jpeg": "/static/media/6.b8bca77d89c1545aa922.jpeg",
     "static/media/Electrawheeler.png": "/static/media/Electrawheeler.c070669872b4f816ce14.png",
     "static/media/BobyGeorge.jpg": "/static/media/BobyGeorge.8b5145502cd56eaea7a4.jpg",
@@ -99,11 +101,11 @@
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.1494e869.css.map": "/static/css/main.1494e869.css.map",
-    "main.5bb83312.js.map": "/static/js/main.5bb83312.js.map",
+    "main.80f45f01.js.map": "/static/js/main.80f45f01.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1494e869.css",
-    "static/js/main.5bb83312.js"
+    "static/js/main.80f45f01.js"
   ]
 }
