@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1494e869.css",
-    "main.js": "/static/js/main.80f45f01.js",
+    "main.js": "/static/js/main.1d775df9.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -70,6 +70,7 @@
     "static/media/Inboud_aerospace.jpg": "/static/media/Inboud_aerospace.041c6d1181a3107e92c9.jpg",
     "static/media/SambitMishra.jpg": "/static/media/SambitMishra.8fcd1e88409e802b2783.jpg",
     "static/media/vidya.jpg": "/static/media/vidya.0d512256cf9036440da7.jpg",
+    "static/media/bala saimani.jpg": "/static/media/bala saimani.a30a5fd4b74ad456e128.jpg",
     "static/media/anuradhas.jpg": "/static/media/anuradhas.b2bc237ba8f554a74d8d.jpg",
     "static/media/Krishaka.png": "/static/media/Krishaka.336c4cb5ca3d68ccafa7.png",
     "static/media/Manish Gandhi Photo.jpg": "/static/media/Manish Gandhi Photo.1f3f117fbb73e1c1ec76.jpg",
@@ -91,6 +92,7 @@
     "static/media/UNS Edutech.jpeg": "/static/media/UNS Edutech.4500e578a16e6560edc3.jpeg",
     "static/media/samad-jan2021pic3-942x1024-1-276x300.jpg": "/static/media/samad-jan2021pic3-942x1024-1-276x300.c2837d7a94ce8e8e343e.jpg",
     "static/media/Satyesh Kumar.jpg": "/static/media/Satyesh Kumar.47d1755b5b5c4f481fb0.jpg",
+    "static/media/K K Raman.jpg": "/static/media/K K Raman.22193e1da9d554deb8e6.jpg",
     "static/media/anitum.jpg": "/static/media/anitum.70f3631cb01ad1a48810.jpg",
     "static/media/anirudh_javacapital.avif": "/static/media/anirudh_javacapital.b3e77eac6108e87fcd94.avif",
     "static/media/Yuvaraj_Thakur.jpg": "/static/media/Yuvaraj_Thakur.507511baded7aebfb0b6.jpg",
@@ -101,11 +103,11 @@
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.1494e869.css.map": "/static/css/main.1494e869.css.map",
-    "main.80f45f01.js.map": "/static/js/main.80f45f01.js.map",
+    "main.1d775df9.js.map": "/static/js/main.1d775df9.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1494e869.css",
-    "static/js/main.80f45f01.js"
+    "static/js/main.1d775df9.js"
   ]
 }

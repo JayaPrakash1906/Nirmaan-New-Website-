@@ -6,26 +6,35 @@ import img3 from '../Assets/Mentors/jeyappriadhevi.png';
 import img4 from "../Assets/Mentors/Krishnan_jagadisan.jpg";
 import img5 from "../Assets/Mentors/Manish Gandhi Photo.jpg";
 import img6 from "../Assets/Mentors/mohan_narayanan.jpg";
-import img7 from "../Assets/Mentors/ponguri_parthasarathy.jpg"
-import img8 from "../Assets/Mentors/praveenkumar_debard.jpg"
-import img9 from "../Assets/Mentors/rahuldev_algaram.jpg"
-import img10 from "../Assets/Mentors/vaibhav_goyal.jpg"
+import img7 from "../Assets/Mentors/ponguri_parthasarathy.jpg";
+import img8 from "../Assets/Mentors/praveenkumar_debard.jpg";
+import img9 from "../Assets/Mentors/rahuldev_algaram.jpg";
+import img10 from "../Assets/Mentors/vaibhav_goyal.jpg";
+import img11 from "../Assets/Mentors/vishy.jpg";
+import img12 from "../Assets/Mentors/K K Raman.jpg";
+import img13 from "../Assets/Mentors/Ravichandran Srinivasan.jpg";
+import img14 from "../Assets/Mentors/Krishnamurti.jpg";
 
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight, FaLinkedin } from "react-icons/fa";
 
 function Mentor() {
     const mentors = [
-        { img: img1, name: "Anirudh Jayagopal", role: "Principal", company: "Java Capital",link:"https://www.linkedin.com/in/anirudh-jayagopal/?jobid=1234"},
-        { img: img2, name: "Gopal Raman", role: "Formerly President ", company: "Hinduja Group", link: "https://www.linkedin.com/in/ramangopal/" },
-        { img: img3, name: "Jeyappria dhevi ", role: "Founder ", company: "Kodate", link: "https://www.linkedin.com/in/jjpria/" },
-        { img: img4, name: "Krishnan Jagadisan", role: "Managing Director", company: "Unimity Solutions", link: "" },
-        { img: img5, name: "Manish Gandhi", role: "Angel Investor", company: "", link: "https://www.linkedin.com/in/manish-gandhi-b0401a1b2/?originalSubdomain=in" },
-        { img: img6, name: "Mohan Narayanan", role: "Governing Board Member", company: "PALS", link: "https://www.linkedin.com/in/mohan-narayanan-52626b12/?jobid=1234" },
-        { img: img7, name: "Ponguri Parthasarathy", role: "Business Mentor", company: "Deep Technology Healthcare Startups", link: "https://www.linkedin.com/in/ponguriparthasarathy/" },
-        { img: img8, name: "PraveenKumar Radhakrishnan", role: "CTO", company: "Debord Technologies", link: "https://www.linkedin.com/in/praveenkumar-radhakrishnan-9806514b/" },
-        { img: img9, name: "Rahuldev Radhakrishnan", role: "Director", company: "Algram Labs Private Limited", link: "https://www.linkedin.com/in/rahuldev-radhakrishnan-2589b9b0/" },
-        { img: img10, name: "Vaibhav Goyal", role: "Co-Founder", company: "Predixion AI", link: "https://www.linkedin.com/in/vaibhavg/" },
+        
+        { img: img11, name: "Mr. Srinivasan Viswanathan", role: "Co-Founder", company: "Ultimate Business Advisors LLP", link: "https://www.linkedin.com/in/vishy/" },
+        { img: img6, name: "Mr. Mohan Narayanan", role: "Governing Board Member", company: "PALS", link: "https://www.linkedin.com/in/mohan-narayanan-52626b12/?jobid=1234" },
+        { img: img12, name: "Mr, K.K Raman", role: "Mentor-Nirmaan", company: "", link: "https://www.linkedin.com/in/k-k-raman-427166a9/" },
+        { img: img13, name: "Mr. Ravichandran Srinivasan", role: " Start Up Advisor and Mentor", company: "", link: "https://www.linkedin.com/in/ravichandran-srinivasan/" },
+        { img: img14, name: "Mr. Krishnamurti R Rao", role: "Independent Consultant", company: "", link: "https://www.linkedin.com/in/krishnamurti-r-rao-1ba0862/" },
+        { img: img2, name: "Mr. Gopal Raman", role: "Formerly President ", company: "Hinduja Group", link: "https://www.linkedin.com/in/ramangopal/" },
+        { img: img4, name: "Mr. Krishnan Jagadisan", role: "Managing Director", company: "Unimity Solutions", link: "" },
+        { img: img3, name: "Ms. Jeyappria dhevi ", role: "Founder ", company: "Kodate", link: "https://www.linkedin.com/in/jjpria/" },
+        { img: img7, name: "Mr. Ponguri Parthasarathy", role: "Business Mentor", company: "Deep Technology Healthcare Startups", link: "https://www.linkedin.com/in/ponguriparthasarathy/" },
+        { img: img10, name: "Mr.Vaibhav Goyal", role: "Co-Founder", company: "Predixion AI", link: "https://www.linkedin.com/in/vaibhavg/" },
+        { img: img1, name: "Mr. Anirudh Jayagopal", role: "Principal", company: "Java Capital",link:"https://www.linkedin.com/in/anirudh-jayagopal/?jobid=1234"},
+         { img: img5, name: "Mr. Manish Gandhi", role: "Angel Investor", company: "", link: "https://www.linkedin.com/in/manish-gandhi-b0401a1b2/?originalSubdomain=in" },
+          { img: img8, name: "Mr. PraveenKumar Radhakrishnan", role: "CTO", company: "Debord Technologies", link: "https://www.linkedin.com/in/praveenkumar-radhakrishnan-9806514b/" },
+        { img: img9, name: "Mr. Rahuldev Radhakrishnan", role: "Director", company: "Algram Labs Private Limited", link: "https://www.linkedin.com/in/rahuldev-radhakrishnan-2589b9b0/" },
         
     ];
 

@@ -7,7 +7,7 @@ import img4 from '../Assets/About/tamoshwathi.webp';
 import img5 from '../Assets/About/chirag.jpeg'; 
 import img6 from "../Assets/About/Advisor_Message.png"
 import img7 from '../Assets/About/Nandhini.jpeg';
-import img8 from '../Assets/About/Yuvaraj_Thakur.jpg';
+import img8 from '../Assets/About/bala saimani.jpg';
 import img9 from '../Assets/About/vishy.jpg';
 import img10 from '../Assets/About/ourgoal.jpg';
 import img11 from '../Assets/About/ashwin-mahalingam.jpg'
@@ -67,7 +67,7 @@ const Team = () => {
       image: img7,
     },
     {
-      name: "Yuvraj Thakur",
+      name: "Bala Saimani Voonna",
       title: "Student Executive Head",
       organisation: 'Nirmaan',
       image: img8,

@@ -11,6 +11,7 @@ import img7 from "../Assets/Genisis/Sai_Bhargavi.jpg";
 import img8 from "../Assets/Genisis/Advisor_Message.png";
 import img9 from "../Assets/Genisis/Harsha.jpg";
 import img10 from "../Assets/Genisis/Yuvaraj_Thakur.jpg";
+import img11 from "../Assets/Genisis/bala saimani.jpg"
 import Footer from "../Components/Footer";
 
 const Timeline = () => {
@@ -43,6 +44,7 @@ const Timeline = () => {
         { src: img8, caption: "Prof. Prabhu Rajagopal", company: "Advisor" },
         { src: img9, caption: "Harsha", company: "Student Head (2023-2024)" },
         { src: img10, caption: "Yuvaraj Thakur", company: "Student Head (2024-2025)" },
+        { src: img11, caption: "Bala Saimani Voonna", company: "Student Head (2025-2026)" },
       ],
     },
 
