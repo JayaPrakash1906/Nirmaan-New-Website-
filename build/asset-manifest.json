@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1494e869.css",
-    "main.js": "/static/js/main.1d775df9.js",
+    "main.js": "/static/js/main.6918c07d.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/1P5A5749.jpg": "/static/media/1P5A5749.b080b5f6291dc5025102.jpg",
@@ -63,6 +63,7 @@
     "static/media/newsletter3.png": "/static/media/newsletter3.a655301f0bea194e59b1.png",
     "static/media/susstains.jpg": "/static/media/susstains.3e8dab37e21ce0c66c2f.jpg",
     "static/media/tt.png": "/static/media/tt.ce0536414b5bc75a2c4f.png",
+    "static/media/team-2.png": "/static/media/team-2.cb7dd5ed3e140d0a446b.png",
     "static/media/p_s_pandian.jpg": "/static/media/p_s_pandian.b5072561379c78b8f232.jpg",
     "static/media/nithin.png": "/static/media/nithin.2fe38821940582dce5f4.png",
     "static/media/NATESAN.jpg": "/static/media/NATESAN.ddaa9a10da367b1d42a5.jpg",
@@ -79,6 +80,7 @@
     "static/media/ramkumar.jpg": "/static/media/ramkumar.8c997ff123db6d5375a4.jpg",
     "static/media/Infyulabs.png": "/static/media/Infyulabs.eb21ac0276f8bfe5fdf1.png",
     "static/media/logo.png": "/static/media/logo.f16599fa73d3b6cade48.png",
+    "static/media/sampath.jpg": "/static/media/sampath.f342b4cd75a44edd3dea.jpg",
     "static/media/jeyappriadhevi.png": "/static/media/jeyappriadhevi.f14fad5dfcc982baa06c.png",
     "static/media/AadilKhan.jpg": "/static/media/AadilKhan.bd4772b9be2c89b3ab6f.jpg",
     "static/media/logo-cogniphy.png": "/static/media/logo-cogniphy.0d5cb58edf1e2c75538c.png",
@@ -87,6 +89,7 @@
     "static/media/terraclime.svg": "/static/media/terraclime.f058d99d482159ac390961103ed38a75.svg",
     "static/media/mohan_narayanan.jpg": "/static/media/mohan_narayanan.1ddae86c061f4ec21166.jpg",
     "static/media/Scimplify Logo.8a1aba1d.svg": "/static/media/Scimplify Logo.8a1aba1d.90f8e174cbf6001c3989cfc0e99f0d18.svg",
+    "static/media/chandan_varma.jpg": "/static/media/chandan_varma.69baf5eef8a96aa5dc71.jpg",
     "static/media/waterfly_technologies.jpg": "/static/media/waterfly_technologies.247312acf35d7186413e.jpg",
     "static/media/prince_kumar.jpg": "/static/media/prince_kumar.af137380cc022bcfc065.jpg",
     "static/media/UNS Edutech.jpeg": "/static/media/UNS Edutech.4500e578a16e6560edc3.jpeg",
@@ -103,11 +106,11 @@
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.1494e869.css.map": "/static/css/main.1494e869.css.map",
-    "main.1d775df9.js.map": "/static/js/main.1d775df9.js.map",
+    "main.6918c07d.js.map": "/static/js/main.6918c07d.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1494e869.css",
-    "static/js/main.1d775df9.js"
+    "static/js/main.6918c07d.js"
   ]
 }
