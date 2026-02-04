@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Image from '../Assets/iitm logo.png';
 import Image2 from '../Assets/nirmaan logo.png';
-import Image3 from '../Assets/OIE Logo.png';
+import Image3 from '../Assets/SIE LOGO.jpeg';
+import {FaBullhorn,FaArrowUp,  FaRocket,  FaCalendarAlt,  FaClock,  FaMapMarkerAlt,} from "react-icons/fa";
+
 
 const Navbar = () => {
   const [activePage, setActivePage] = useState('');
@@ -33,9 +35,67 @@ const Navbar = () => {
     setMobileMentorOpen(false);
     setMobileOtherOpen(false);
   };
+  const announcements = [
+  <>
+     
+    <span className="mx-6 font-dmsans"> Call for Applications for  <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications forr <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> 🚀 Applications Open for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    <span className="mx-6 font-dmsans"> Call for Applications for<strong>Nirmaan Feb'26 Cohort</strong> —{" "}
+        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
+    </span>
+    
+  </>
+];
+
 
   return (
+    
     <div className="fixed top-0 left-0 w-full shadow-md text-black p-4 z-50" style={{ backgroundColor: '#83d687' }}>
+      
+
       <div className="flex items-center justify-between ml-8">
        <a
   className="flex items-center gap-2 md:gap-4 flex-nowrap overflow-hidden"
@@ -43,7 +103,7 @@ const Navbar = () => {
 >
   {/* Logos */}
   <img src={Image} className="w-12 h-12 md:w-22 md:h-12" alt="IITM Logo" />
-  <img src={Image3} className="w-12 h-12 md:w-22 md:h-12" alt="OIE Logo" />
+  <img src={Image3} className="w-36 h-12 md:w-22 md:h-12" alt="OIE Logo" />
   <img src={Image2} className="w-12 h-12 md:w-18 md:h-12" alt="Nirmaan Logo" />
 
   {/* Text */}
@@ -57,7 +117,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 mr-12 font-dmsans font-semibold text-sm">
           <button onClick={() => (window.location.href = "/")} className={`md:pt-4 ${activePage === '/' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>HOME</button>
-          <button onClick={() => (window.location.href = "/About_us")} className={`md:pt-4 ${activePage === '/about_us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>ABOUT</button>
+          <button onClick={() => (window.location.href = "/about_us")} className={`md:pt-4 ${activePage === '/about_us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>ABOUT</button>
           <button onClick={() => (window.location.href = "/genesis")} className={`md:pt-4 ${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>GENESIS</button>
           {/* <button onClick={() => (window.location.href = "/incubation")} className={`md:pt-4 ${activePage.includes('/incubation') ? 'border-b-2 border-green-800 text-green-800' : ''}`}>PRATHAM & AKSHAR</button> */}
           <button onClick={() => (window.location.href = "/events")} className={`md:pt-4 ${activePage === '/events' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>EVENTS</button>
@@ -97,6 +157,7 @@ const Navbar = () => {
             )}
           </div> */}
         </div>
+        
 
         {/* Mobile Toggle Button */}
         <div className="md:hidden">
@@ -113,7 +174,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col items-end gap-6 px-6 mt-4 text-right font-dmsans font-semibold text-sm">
           <button onClick={() => handleMentorClick("/")}>HOME</button>
-          <button onClick={() => handleMentorClick("/About_us")}>ABOUT</button>
+          <button onClick={() => handleMentorClick("/about_us")}>ABOUT</button>
           <button onClick={() => handleMentorClick("/genesis")}>GENESIS</button>
           {/* <button onClick={() => handleMentorClick("/incubation")}>PRATHAM & AKSHAR</button> */}
           <button onClick={() => handleMentorClick("/events")}>EVENTS</button>
@@ -146,7 +207,28 @@ const Navbar = () => {
           </div> */}
         </div>
       </div>
+      {/* Announcement Bar */}
+<div className="w-full  py-2 flex flex-col sm:flex-row items-center overflow-hidden  mt-4">
+  <div className="bg-white text-red-500 font-semibold flex items-center px-4 py-2 rounded-md mb-2 sm:mb-0 sm:ml-4 z-10 shrink-0 transition-all duration-300 ">
+    <FaBullhorn className="mr-2" />
+    Announcements
+  </div>
+  <div className="relative w-full overflow-hidden">
+          <div className="flex animate-marquee text-black text-sm whitespace-nowrap">
+            {announcements.map((text, idx) => (
+              <span
+                key={idx}
+                className="mx-8 transition-opacity duration-300 hover:opacity-80 text-poppins text-lg "
+              >
+                {text}
+              </span>
+            ))}
+          </div>
+        </div>
+</div>
+
     </div>
+    
   );
 };
 

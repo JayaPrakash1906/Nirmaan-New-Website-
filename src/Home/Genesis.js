@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import img1 from "../Assets/Genisis/satyaseshadri.png";
+import img1 from "../Assets/Genisis/profsatyav5.webp";
 import img2 from "../Assets/Genisis/SambitMishra.jpg";
 import img3 from "../Assets/Genisis/AadilKhan.jpg";
 import img4 from "../Assets/Genisis/AshwanthBhat.jpg";
@@ -12,14 +12,14 @@ import img8 from "../Assets/Genisis/Advisor_Message.png";
 import img9 from "../Assets/Genisis/Harsha.jpg";
 import img10 from "../Assets/Genisis/Yuvaraj_Thakur.jpg";
 import img11 from "../Assets/Genisis/bala saimani.jpg"
+import img12 from "../Assets/Genisis/murugaiyan.png";
 import Footer from "../Components/Footer";
 
 const Timeline = () => {
   const skills = [
     {
-      title: "HTML",
+    
       duration: "2017 - 2022",
-      description: "Learned foundational web structure using HTML.",
       images: [
         { src: img1, caption: "Prof. Satyanarayanan Seshadri", company: "Advisor" },
         { src: img2, caption: "Sambit Mishra", company: "Student Head (2017-2018)" },
@@ -29,21 +29,26 @@ const Timeline = () => {
       ],
     },
     {
-      title: "JavaScript",
+    
       duration: "2022 - 2023",
-      description: "Enhanced web applications with dynamic interactions.",
       images: [
         { src: img6, caption: "  Prof. Richa Agrawal", company: "Advisor" },
         { src: img7, caption: "Sai Bhargavi", company: "Student Head (2022-2023)" },
       ],
-    },{
-      title: "JavaScript",
-      duration: "2023 - Present",
-      description: "Enhanced web applications with dynamic interactions.",
+    },
+    {
+      
+      duration: "2023 - 2025",
       images: [
         { src: img8, caption: "Prof. Prabhu Rajagopal", company: "Advisor" },
         { src: img9, caption: "Harsha", company: "Student Head (2023-2024)" },
         { src: img10, caption: "Yuvaraj Thakur", company: "Student Head (2024-2025)" },
+      ],
+    },
+    {
+      duration: "2025 - present",
+      images: [
+        { src: img12, caption: "Prof. Murugaiyan Amirthalingam", company: "Advisor" },
         { src: img11, caption: "Bala Saimani Voonna", company: "Student Head (2025-2026)" },
       ],
     },
@@ -53,7 +58,7 @@ const Timeline = () => {
   return (
     <div>
       <Navbar />
-      <div className="md:mt-[80px] font-dmsans">
+      <div className="md:mt-[130px] font-dmsans">
         <div className="bg-green-100">
           <div className="p-5 flex">
             <span>

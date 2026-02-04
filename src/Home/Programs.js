@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 
+
 function Programs(){
     return (
         <div>
-            <Navbar />
+            
 
             <div className="">
-
+        Hello from Programs
             </div>
         </div>
     )

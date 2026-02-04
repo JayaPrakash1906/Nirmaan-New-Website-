@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import img1 from '../Assets/About/what we do image.jpg';
 import img2 from '../Assets/About/BobyGeorge.jpg';
-import img3 from '../Assets/About/satyaseshadri.png';
+import img3 from '../Assets/About/profsatyav5.webp';
 import img4 from '../Assets/About/tamoshwathi.webp';
 import img5 from '../Assets/About/chirag.jpeg'; 
 import img6 from "../Assets/About/Advisor_Message.png"
@@ -11,6 +11,7 @@ import img8 from '../Assets/About/bala saimani.jpg';
 import img9 from '../Assets/About/vishy.jpg';
 import img10 from '../Assets/About/ourgoal.jpg';
 import img11 from '../Assets/About/ashwin-mahalingam.jpg'
+import img12 from '../Assets/About/murugaiyan.png'
 import Footer from '../Components/Footer';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
@@ -19,21 +20,21 @@ const Team = () => {
     {
       name: "Prof. Boby George",
       title: "Professor",
-      department: "Department of Electrical Engineering",
+      department: "Dept of Electrical Engineering",
       organisation: 'IIT Madras',
       image: img2,
     },
     {
-      name: "Prof. Satyanarayanan Seshadri",
-      title: "Associate Professor",
-      department: "Dept of Applied Mechanics",
+      name: "Prof. Prabhu Rajagopal",
+      title: "Professor",
+      department: "Dept of Mechanical Engineering",
       organisation: 'IIT Madras',
-      image: img3,
+      image: img6,
     },
     {
       name: "Prof. Ashwin Mahalingam",
       title: "Professor",
-      department: "Department of Civil Engineering",
+      department: "Dept of Civil Engineering",
       organisation: 'IIT Madras',
       image: img11,
     },
@@ -56,14 +57,21 @@ const Team = () => {
       image: img9,
     },
     {
-      name: "Prof. Prabhu Rajagopal",
-      organisation: 'Office of Innovation & Entrepreneurship',
-      image: img6,
+      name: "Prof. Satyanarayanan Seshadri",
+       title: "Head",
+      organisation: 'School of Innovation & Entrepreneurship',
+      image: img3,
+    },
+     {
+      name: "Prof. Murugaiyan Amirthalingam",
+       title: "Advisor",
+      organisation: 'E-Cell & Nirmaan',
+      image: img12,
     },
     {
       name: "K S Nandhini",
       title: "Manager",
-      organisation: 'Office of Innovation & Entrepreneurship',
+      organisation: 'School of Innovation & Entrepreneurship',
       image: img7,
     },
     {
@@ -117,9 +125,9 @@ const Team = () => {
       </div>
 
       {/* Faculty Advisor */}
-      <h2 className='text-center text-2xl mt-10 mb-4 font-bold text-green-600'>Faculty Advisor</h2>
-      <div className="grid grid-cols-1 gap-8 px-4 sm:px-14">
-        {teamMembers.slice(6, 7).map((member, index) => (
+      <h2 className='text-center text-2xl mt-10 mb-4 font-bold text-green-600'>Leadership</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 px-2 sm:px-14">
+        {teamMembers.slice(6, 8).map((member, index) => (
           <div key={index} className="text-center">
             <img
               src={member.image}
@@ -137,8 +145,8 @@ const Team = () => {
 
       {/* Management */}
       <h2 className='text-center text-2xl mt-10 mb-4 font-bold text-green-600'>Management</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 px-4 sm:px-14">
-        {teamMembers.slice(7, 9).map((member, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 px-2 sm:px-14">
+        {teamMembers.slice(8, 10).map((member, index) => (
           <div key={index} className="text-center">
             <img
               src={member.image}
@@ -162,7 +170,7 @@ const Aboutus = () => {
     <div>
       <Navbar />
       <div>
-        <div className="md:mt-[80px]  font-dmsans">
+        <div className="md:mt-[130px]  font-dmsans">
           <div className="bg-green-100"> 
             <div className="p-5 flex">
               <span>

@@ -466,7 +466,7 @@ function Teams() {
     return (
         <div className="min-h-screen flex flex-col">
             <Navbar />
-            <div className="flex-grow md:mt-[80px]">
+            <div className="flex-grow md:mt-[130px]">
                 <div className="bg-green-100 pb-6">
                     <div className="pt-5 pl-5 flex items-center">
                         <a href="/" className="text-gray-600 font-semibold hover:underline text-sm sm:text-base">Home</a>
