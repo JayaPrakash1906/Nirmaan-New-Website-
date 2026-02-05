@@ -35,60 +35,7 @@ const Navbar = () => {
     setMobileMentorOpen(false);
     setMobileOtherOpen(false);
   };
-  const announcements = [
-  <>
-     
-    <span className="mx-6 font-dmsans"> Call for Applications for  <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications forr <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> 🚀 Applications Open for <strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    <span className="mx-6 font-dmsans"> Call for Applications for<strong>Nirmaan Feb'26 Cohort</strong> —{" "}
-        <a href="https://traktor.sieiitm.org"target="_blank"rel="noopener noreferrer" className="font-bold underline text-green-700 hover:text-green-900"> Apply Now </a>
-    </span>
-    
-  </>
-];
+  
 
 
   return (
@@ -207,25 +154,7 @@ const Navbar = () => {
           </div> */}
         </div>
       </div>
-      {/* Announcement Bar */}
-<div className="w-full  py-2 flex flex-col sm:flex-row items-center overflow-hidden  mt-4">
-  <div className="bg-white text-red-500 font-semibold flex items-center px-4 py-2 rounded-md mb-2 sm:mb-0 sm:ml-4 z-10 shrink-0 transition-all duration-300 ">
-    <FaBullhorn className="mr-2" />
-    Announcements
-  </div>
-  <div className="relative w-full overflow-hidden">
-          <div className="flex animate-marquee text-black text-sm whitespace-nowrap">
-            {announcements.map((text, idx) => (
-              <span
-                key={idx}
-                className="mx-8 transition-opacity duration-300 hover:opacity-80 text-poppins text-lg "
-              >
-                {text}
-              </span>
-            ))}
-          </div>
-        </div>
-</div>
+      
 
     </div>
     

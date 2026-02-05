@@ -170,7 +170,7 @@ const Aboutus = () => {
     <div>
       <Navbar />
       <div>
-        <div className="md:mt-[130px]  font-dmsans">
+        <div className="md:mt-[80px]  font-dmsans">
           <div className="bg-green-100"> 
             <div className="p-5 flex">
               <span>

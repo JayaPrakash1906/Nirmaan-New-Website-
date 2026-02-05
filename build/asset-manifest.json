@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9324bf20.css",
-    "main.js": "/static/js/main.d6fba073.js",
+    "main.css": "/static/css/main.125bbc64.css",
+    "main.js": "/static/js/main.809c5c30.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
@@ -107,12 +107,12 @@
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
-    "main.9324bf20.css.map": "/static/css/main.9324bf20.css.map",
-    "main.d6fba073.js.map": "/static/js/main.d6fba073.js.map",
+    "main.125bbc64.css.map": "/static/css/main.125bbc64.css.map",
+    "main.809c5c30.js.map": "/static/js/main.809c5c30.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9324bf20.css",
-    "static/js/main.d6fba073.js"
+    "static/css/main.125bbc64.css",
+    "static/js/main.809c5c30.js"
   ]
 }

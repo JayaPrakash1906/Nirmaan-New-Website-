@@ -29,7 +29,7 @@ function Media(){
         <div>
             <Navbar />
 
-            <div className="md:mt-[130px] font-dmsans">
+            <div className="md:mt-[80px] font-dmsans">
                 <div className="bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Media</span></div>
                         <h2 className="text-5xl font-semibold text-green-600 pt-8 pb-5 text-center">Outreach initiative</h2>
