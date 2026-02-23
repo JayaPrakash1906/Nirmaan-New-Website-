@@ -307,7 +307,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Apply Now
+            Application Closed
           </a>
         </span>
       ))}
@@ -323,7 +323,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Apply Now
+            Application closed
           </a>
         </span>
         
@@ -338,7 +338,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Apply Now
+             Application closed
           </a>
         </span>
         
@@ -353,7 +353,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Apply Now
+             Application closed
           </a>
         </span>
         
@@ -515,10 +515,10 @@ const Home = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24 px-10">
         <div className="text-center border mt-4 rounded-lg p-6 border border-green-500">
           <h3 className="text-2xl font-semibold mb-4 text-green-600 font-dmsans">
-            Pratham - 8 Week Program
+            Pratham - 6 Month Program
           </h3>
           <p className="text-gray-900 mb-6 leading-relaxed text-justify font-dmsans">
-            Jumpstart your entrepreneurial journey with our 8-Week
+            Jumpstart your entrepreneurial journey with our 6-Month
             Program, Pratham, named after the Sanskrit word for "first.” This
             intensive program will guide student teams through the basics of
             business, finance, and market strategy, helping them turn their
