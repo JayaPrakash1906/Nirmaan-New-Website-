@@ -298,7 +298,7 @@ const Home = () => {
         </div> for below the navbar - mt-[80px]
       </div> */}
       {/* image popup shown on every visit after delay */}
-      {showPopup && (
+      {/* {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-4 rounded-lg max-w-md mx-4 relative">
             <button
@@ -314,10 +314,10 @@ const Home = () => {
             />
           </div>
         </div>
-      )}
+      )} */}
 
-      <div className="w-full bg-[#f8f9fa] py-2 flex items-center overflow-hidden border-b border-gray-200 mt-24">
-  <div className="bg-white text-red-500 font-semibold flex items-center px-4 py-2 rounded-md ml-4 z-10 shrink-0 text-lg">
+     {/* <div className="w-full bg-[#f8f9fa] py-2 flex items-center overflow-hidden border-b border-gray-200 mt-24">
+   <div className="bg-white text-red-500 font-semibold flex items-center px-4 py-2 rounded-md ml-4 z-10 shrink-0 text-lg">
     <FaBullhorn className="mr-2" />
     Announcements
   </div>
@@ -339,7 +339,7 @@ const Home = () => {
         </span>
       ))}
 
-      {/* Duplicate once for smooth infinite scroll */}
+      
       {announcements.map((item, idx) => (
         <span key={`dup-${idx}`} className="mx-8 text-poppins">
           <FaHandPointRight className="inline text-green-600 mr-1" />
@@ -387,9 +387,9 @@ const Home = () => {
       ))}
     </div>
   </div>
-</div>
+</div> */}
 
-      <div className="mt-[40px]   md:grid md:grid-cols-2 gap-3 ">
+      <div className="mt-[80px]   md:grid md:grid-cols-2 gap-3 ">
         <div>
           <div className=" max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-16 content-left">
             <div className="text-center">
