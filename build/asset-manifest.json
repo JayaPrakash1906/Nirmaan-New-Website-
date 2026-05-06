@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7030b36.css",
-    "main.js": "/static/js/main.8d82c69a.js",
+    "main.css": "/static/css/main.9278a4d2.css",
+    "main.js": "/static/js/main.dba76ed8.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
@@ -15,6 +15,7 @@
     "static/media/vimal.png": "/static/media/vimal.cc140b99b3f4e8a209da.png",
     "static/media/hariharan.png": "/static/media/hariharan.5f47b5c4012d13d1c5ce.png",
     "static/media/m anand.png": "/static/media/m anand.be1ac504e39463a66a90.png",
+    "static/media/news7.jpg": "/static/media/news7.37cc399b6c3a5ddfc235.jpg",
     "static/media/nirmaan logo.png": "/static/media/nirmaan logo.8b8518964b925a2a2d57.png",
     "static/media/side1.jpg": "/static/media/side1.07fdcbbd552dbd168728.jpg",
     "static/media/Delta_Expo_Invite.jpg": "/static/media/Delta_Expo_Invite.4ac3bc4213b1c8be66bf.jpg",
@@ -135,12 +136,12 @@
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
-    "main.a7030b36.css.map": "/static/css/main.a7030b36.css.map",
-    "main.8d82c69a.js.map": "/static/js/main.8d82c69a.js.map",
+    "main.9278a4d2.css.map": "/static/css/main.9278a4d2.css.map",
+    "main.dba76ed8.js.map": "/static/js/main.dba76ed8.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7030b36.css",
-    "static/js/main.8d82c69a.js"
+    "static/css/main.9278a4d2.css",
+    "static/js/main.dba76ed8.js"
   ]
 }

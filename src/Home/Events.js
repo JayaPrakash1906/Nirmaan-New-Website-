@@ -24,18 +24,27 @@ function Events() {
             <span className="text-black font-semibold">Events</span>
           </div>
           <h2 className="md:text-5xl font-semibold text-green-600 text-center pt-7 pb-6 sm:text-3xl">
-            Upcoming Events
+            Past Events
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
+        
+      </div>
+      
+      {/* <div className="bg-green-100">
+        <h2 className="md:text-5xl font-semibold text-green-600 text-center p-10 sm:text-3xl mt-6">
+          Past Events
+        </h2>
+      </div> */}
+
+<div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
           <div className="col-span-2 flex justify-end items-center">
-            <img src={delta} className="md:h-[310px] w-[350px] md:shadow-lg border " alt="Delta Expo" />
+            <img src={delta} className="md:h-[310px] w-[300px] md:shadow-lg border " alt="Delta Expo" />
           </div>
           <div className="col-span-5">
             <div className="font-semibold text-3xl text-green-600 flex">Delta Expo 2026</div>
             <div className="flex">
-              <span className="mt-1 font-semibold">14-15 March 2026</span>
+              <span className="mt-1 font-semibold">14&15 March 2026</span>
             </div>
             <div className="flex">
               <FaClock size={24} className="pt-2 text-green-500" />
@@ -47,14 +56,19 @@ function Events() {
             </div>
             <div className="flex pt-2 text-black text-justify">
               <span className="mt-1">
-                Join us for the exciting Delta Expo, an upcoming event showcasing innovations and startups from IIT Madras. This event will feature exhibitions, networking opportunities, and presentations from emerging entrepreneurs.
+              Delta Expo 2026, the flagship innovation showcase by the School of Innovation and Entrepreneurship, brings together the brightest student innovators and startups.
+Rooted in the spirit of “Delta (𝜹)”, the event celebrates transformation—from ideas to impactful ventures.
+Explore 45+ student innovation teams from CFI and 30+ early-stage startups from Nirmaan.
+Experience live demonstrations across robotics, AI, biotechnology, aerospace, and more.
+Connect with a vibrant ecosystem of founders, investors, and creators.
+Join us at IIT Madras and witness innovation come to life.
               </span>
             </div>
 
             {/* View More Button to Show PDF in Lity Modal */}
             <div className="mt-4 mb-14">
               <a
-                href=""
+                href="https://resume-data-nirmaan.s3.ap-south-1.amazonaws.com/Delta_Expo_2026_Agenda.pdf"
                 data-lity
                 className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
               >
@@ -63,13 +77,6 @@ function Events() {
             </div>
           </div>
         </div>
-      </div>
-      
-      <div className="bg-green-100">
-        <h2 className="md:text-5xl font-semibold text-green-600 text-center p-10 sm:text-3xl mt-6">
-          Past Events
-        </h2>
-      </div>
 
       <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
         <div className="col-span-2 flex justify-end items-center">

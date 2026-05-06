@@ -23,6 +23,8 @@ import img20 from '../Assets/Media/zeex.jpg';
 import img21 from "../Assets/Media/plenome.jpg"
 import img22 from "../Assets/Media/inbound aerospace.jpg";
 import img23 from "../Assets/Media/news6.jpg";
+import img24 from "../Assets/delta_expo.jpg";
+import img25 from "../Assets/Media/news7.jpg";
 import Footer from "../Components/Footer";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 function Media(){
@@ -51,10 +53,12 @@ function Media(){
                         <div className="text-xl text-center text-green-600 font-semibold mb-2">Innosphere Magazine</div>
                             <img src={img3} alt="Image 2" className="w-full h-[240px] object-cover rounded-lg  filter brightness-20 hover:brightness-0 hover:filter-none" />
                             <h3 className="text-sm mt-2"><b>Innosphere magazine</b> offers readers an in-depth look at our latest projects and milestones. It introduces you to a curated collection of insights, breakthroughs, and visionary ideas from the realms of agritech, AI, edutech, healthtech, renewable energy, spacetech, and beyond.</h3>
-                            <a href="https://website-nirmaan.s3.ap-south-1.amazonaws.com/Magazine_Innosphere_Final+(6).pdf" target="_blank" rel="noopener noreferrer" // Replace with your actual PDF path
-                            data-lity>                            
-                            <center><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></center>
-                            </a>   
+                            <div className="flex justify-center gap-3 mt-3">
+                                <a href="https://resume-data-nirmaan.s3.ap-south-1.amazonaws.com/Magazine_Innosphere_Final+(1).pdf" target="_blank" rel="noopener noreferrer" className="bg-green-400 px-3 py-2 rounded-full text-white font-semibold hover:bg-green-500">View PDF v1</a>
+                                <a href="https://resume-data-nirmaan.s3.ap-south-1.amazonaws.com/Inno_Mag_Final_2B_Submtd.pdf" target="_blank" rel="noopener noreferrer" className="bg-green-400 px-3 py-2 rounded-full text-white font-semibold hover:bg-green-500">View PDF v2</a>
+                            </div>
+                            <div className="text-center text-xs text-gray-500 mt-2">Click either button to open the corresponding Innosphere magazine PDF.
+                            </div>
               <div className="mt-4">
             </div>
                         </div>
@@ -85,6 +89,14 @@ function Media(){
                                         <div className="ps-5 font-semibold text-md">Delta Expo 2026: Showcasing Innovation at IIT Madras</div>
                                         <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Mar 14, 2025</div>
                                         <center><a href="https://www.linkedin.com/posts/from-bold-ideas-to-real-world-impactdelta-ugcPost-7439904929886031872-hKu_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                    </div>
+                                    <div className="border rounded-md pb-2">
+                                        <div className="flex justify-center items-center">
+                                                <img src={img24} className="max-h-40 h-70 w-50  my-5 mx-10"/>
+                                        </div>
+                                        <div className="ps-5 font-semibold text-md">‘Delta Expo 2026’ (Youtube Live)</div>
+                                        <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Mar 14, 2026</div>
+                                        <center><a href="https://www.youtube.com/live/9h1vW1BE5Ns?si=L33tKMITymro1GVG"target="_blank" rel="noopener noreferrer"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
                                     </div>
                                 <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">
