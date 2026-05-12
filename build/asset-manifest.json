@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9278a4d2.css",
-    "main.js": "/static/js/main.dba76ed8.js",
+    "main.js": "/static/js/main.d06dfd86.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
@@ -137,11 +137,11 @@
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.9278a4d2.css.map": "/static/css/main.9278a4d2.css.map",
-    "main.dba76ed8.js.map": "/static/js/main.dba76ed8.js.map",
+    "main.d06dfd86.js.map": "/static/js/main.d06dfd86.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9278a4d2.css",
-    "static/js/main.dba76ed8.js"
+    "static/js/main.d06dfd86.js"
   ]
 }
