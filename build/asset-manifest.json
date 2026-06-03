@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.9278a4d2.css",
-    "main.js": "/static/js/main.d06dfd86.js",
+    "main.js": "/static/js/main.dbb3badd.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/Advisor_Message.png": "/static/media/Advisor_Message.3a9a48264ac3b307b67d.png",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
-    "static/media/side5.jpg": "/static/media/side5.e49373ae128994ef0e67.jpg",
+    "static/media/23.jpg": "/static/media/23.f237e57fb1e1b4fab8ff.jpg",
+    "static/media/22.jpg": "/static/media/22.3b97fe96a0621f5fee80.jpg",
     "static/media/dhiman.png": "/static/media/dhiman.8ef2e66d3ba26c6ca387.png",
     "static/media/spdas.png": "/static/media/spdas.7d3be2b1bc19e7c94bc9.png",
     "static/media/balas.png": "/static/media/balas.a756fabe19d68fab99df.png",
@@ -63,7 +64,6 @@
     "static/media/Varadhan SKM.png": "/static/media/Varadhan SKM.28cd2c1cca273ed4665b.png",
     "static/media/Machintell.png": "/static/media/Machintell.19b2c43e860db0291acc.png",
     "static/media/murugaiyan.png": "/static/media/murugaiyan.77a54c277dc2a5187975.png",
-    "static/media/side4.jpeg": "/static/media/side4.4d9533ead403321c5460.jpeg",
     "static/media/M.Thenmozhi.jpg": "/static/media/M.Thenmozhi.0070b9d64e9054dd0361.jpg",
     "static/media/E-cell-iitm.jpeg": "/static/media/E-cell-iitm.fea05942ac1237f6b375.jpeg",
     "static/media/sukoon.jpg": "/static/media/sukoon.701e96fccc1c40f7afa8.jpg",
@@ -137,11 +137,11 @@
     "static/media/Java Capital.avif": "/static/media/Java Capital.d62388eb63b6a4b461da.avif",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
     "main.9278a4d2.css.map": "/static/css/main.9278a4d2.css.map",
-    "main.d06dfd86.js.map": "/static/js/main.d06dfd86.js.map",
+    "main.dbb3badd.js.map": "/static/js/main.dbb3badd.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9278a4d2.css",
-    "static/js/main.d06dfd86.js"
+    "static/js/main.dbb3badd.js"
   ]
 }
