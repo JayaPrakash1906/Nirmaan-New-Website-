@@ -46,8 +46,8 @@ const stats = [
 ];
 const announcements = [
   {
-    text: "Applications are now open for UGFIR 2026  ",
-    link: "https://sie.iitm.ac.in/scholorship/ugfir",
+    text: "Applications are closed for   ",
+    // link: "",
   },
 ];
 
@@ -327,14 +327,14 @@ const Home = () => {
             {announcements.map((item, idx) => (
               <span key={idx} className="mx-8 text-poppins">
                 <FaHandPointRight className="inline text-green-600 mr-1" />
-                {item.text} -{" "}
+                {item.text} {" "}
                 <a
                   href={item.link}
-                  className="font-semibold underline"
+                  className="font-semibold "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Click here to apply
+                  UGFIR 2026
                 </a>
               </span>
             ))}
@@ -343,14 +343,14 @@ const Home = () => {
             {announcements.map((item, idx) => (
               <span key={`dup-${idx}`} className="mx-8 text-poppins">
                 <FaHandPointRight className="inline text-green-600 mr-1" />
-                {item.text} -{" "}
+                {item.text} {" "}
                 <a
                   href={item.link}
-                  className="font-semibold underline"
+                  className="font-semibold "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Click here to apply
+                  UGFIR 2026
                 </a>
               </span>
 
@@ -358,14 +358,14 @@ const Home = () => {
             {announcements.map((item, idx) => (
               <span key={`dup-${idx}`} className="mx-8 text-poppins">
                 <FaHandPointRight className="inline text-green-600 mr-1" />
-                {item.text} -{" "}
+                {item.text} {" "}
                 <a
                   href={item.link}
-                  className="font-semibold underline"
+                  className="font-semibold "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Click here to apply
+                  UGFIR 2026
                 </a>
               </span>
 
