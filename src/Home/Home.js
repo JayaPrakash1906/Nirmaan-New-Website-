@@ -324,7 +324,7 @@ const Home = () => {
 
         <div className="relative w-full overflow-hidden">
           <div className="flex animate-marquee text-[#002855] text-lg font-semibold whitespace-nowrap">
-            {announcements.map((item, idx) => (
+            {/* {announcements.map((item, idx) => (
               <span key={idx} className="mx-8 text-poppins">
                 <FaHandPointRight className="inline text-green-600 mr-1" />
                 {item.text} {" "}
@@ -337,39 +337,39 @@ const Home = () => {
                   UGFIR 2026
                 </a>
               </span>
-            ))}
+            ))} */}
 
 
-            {announcements.map((item, idx) => (
-              <span key={`dup-${idx}`} className="mx-8 text-poppins">
-                <FaHandPointRight className="inline text-green-600 mr-1" />
-                {item.text} {" "}
-                <a
-                  href={item.link}
-                  className="font-semibold "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  UGFIR 2026
-                </a>
-              </span>
+            {/* {announcements.map((item, idx) => (
+              // <span key={`dup-${idx}`} className="mx-8 text-poppins">
+              //   <FaHandPointRight className="inline text-green-600 mr-1" />
+              //   {item.text} {" "}
+              //   <a
+              //     href={item.link}
+              //     className="font-semibold "
+              //     target="_blank"
+              //     rel="noopener noreferrer"
+              //   >
+              //     UGFIR 2026
+              //   </a>
+              // </span>
 
-            ))}
-            {announcements.map((item, idx) => (
-              <span key={`dup-${idx}`} className="mx-8 text-poppins">
-                <FaHandPointRight className="inline text-green-600 mr-1" />
-                {item.text} {" "}
-                <a
-                  href={item.link}
-                  className="font-semibold "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  UGFIR 2026
-                </a>
-              </span>
+            ))} */}
+            {/* {announcements.map((item, idx) => (
+              // <span key={`dup-${idx}`} className="mx-8 text-poppins">
+              //   <FaHandPointRight className="inline text-green-600 mr-1" />
+              //   {item.text} {" "}
+              //   <a
+              //     href={item.link}
+              //     className="font-semibold "
+              //     target="_blank"
+              //     rel="noopener noreferrer"
+              //   >
+              //     UGFIR 2026
+              //   </a>
+              // </span>
 
-            ))}
+            ))} */}
             {/* {announcements.map((item, idx) => (
               <span key={`dup-${idx}`} className="mx-8 text-poppins">
                 <FaHandPointRight className="inline text-green-600 mr-1" />

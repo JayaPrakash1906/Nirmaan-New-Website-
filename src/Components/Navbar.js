@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Image from '../Assets/iitm logo.png';
 import Image2 from '../Assets/nirmaan logo.png';
-import Image3 from '../Assets/SIE LOGO.jpeg';
+import Image3 from '../Assets/SIE Logo.png';
 import {FaBullhorn,FaArrowUp,  FaRocket,  FaCalendarAlt,  FaClock,  FaMapMarkerAlt,} from "react-icons/fa";
 
 
@@ -50,7 +50,7 @@ const Navbar = () => {
 >
   {/* Logos */}
   <img src={Image} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="IITM Logo" />
-  <img src={Image3} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="OIE Logo" />
+  <img src={Image3} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="SIE Logo" />
   <img src={Image2} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="Nirmaan Logo" />
 
   {/* Text */}
