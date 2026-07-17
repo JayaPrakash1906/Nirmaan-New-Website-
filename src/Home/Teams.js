@@ -402,15 +402,15 @@ function Teams() {
             website: "https://www.clueso.io/?utm_source=linkedin&utm_medium=company_page"
         },
         
-         {
-            id: 38,
-            project_name: "Scimplify",
-            profile_photo: img39,
-            description: "Scimplify is a science-first company for end-to-end development and manufacturing of specialty chemicals. We provide support across the product life cycle, from contract research to commercial chemical manufacturing across Pharmaceuticals, Agrochemicals, Industrial Chemicals, Flavors & Fragrances, Food & Nutrition, Beauty & Personal Care, and other industries.",
-            members_name: "Pranav Singh Pundir",
-            members_linkedin: "https://www.linkedin.com/company/scimplify/",
-            website: "https://www.scimplify.com/"
-        },
+        //  {
+        //     id: 38,
+        //     project_name: "Scimplify",
+        //     profile_photo: img39,
+        //     description: "Scimplify is a science-first company for end-to-end development and manufacturing of specialty chemicals. We provide support across the product life cycle, from contract research to commercial chemical manufacturing across Pharmaceuticals, Agrochemicals, Industrial Chemicals, Flavors & Fragrances, Food & Nutrition, Beauty & Personal Care, and other industries.",
+        //     members_name: "Pranav Singh Pundir",
+        //     members_linkedin: "https://www.linkedin.com/company/scimplify/",
+        //     website: "https://www.scimplify.com/"
+        // },
         {
             id: 39,
             project_name: "Aero Dome Technologies",
