@@ -143,11 +143,11 @@ function Mentor() {
                     <div className="md:grid md:grid-cols-4 md:gap-5 px-10 mb-8">
     {mentors.map((mentor, index) => (
         <div key={index} className="border py-3 mt-3">
-            <div className="flex justify-center items-center mx-auto w-[144px] h-[144px] mb-4">
+            <div className="flex justify-center items-center mx-auto w-[144px] h-[144px] mb-4 overflow-hidden">
                 <img 
                     src={mentor.img} 
                     alt={mentor.name} 
-                    className="rounded-sm w-full h-full object-top transition-all duration-500 "
+                    className="rounded-sm w-full h-full object-cover object-top transition-all duration-500"
                 />
             </div>
             <h3 className="text-md font-semibold text-green-600 text-center">{mentor.name}</h3>
