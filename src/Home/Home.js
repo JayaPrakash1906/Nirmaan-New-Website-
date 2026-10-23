@@ -29,7 +29,40 @@ import { CiLocationOn, CiMail, CiYoutube } from "react-icons/ci";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import Footer from "../Components/Footer";
-import Marquee from "react-fast-marquee";
+const supporterLogos = [
+  { src: Img23, className: "h-[100px]" },
+  { src: Img1, className: "h-[100px]" },
+  { src: Img2, className: "h-[100px]" },
+  { src: Img4, className: "h-[50px] mt-6" },
+  { src: Img22, className: "h-[50px] mt-5" },
+  { src: Img19, className: "h-[50px] mt-5 max-w-[280px] object-contain" },
+  { src: Img20, className: "h-[40px] mt-7" },
+  { src: Img21, className: "h-[40px] mt-7" },
+  { src: Img7, className: "h-[50px] w-[180px] mt-7" },
+];
+
+const SupportersMarquee = () => (
+  <div className="overflow-hidden w-full">
+    <div className="flex w-max animate-supporters-marquee">
+      {[0, 1].map((copy) => (
+        <div
+          key={copy}
+          className="flex items-center space-x-8 px-4 shrink-0"
+          aria-hidden={copy === 1 ? true : undefined}
+        >
+          {supporterLogos.map((logo, index) => (
+            <img
+              key={`${copy}-${index}`}
+              src={logo.src}
+              alt={copy === 0 ? "Supporter logo" : ""}
+              className={`shrink-0 object-contain ${logo.className}`}
+            />
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+);
 import WhatWeOffer from "../Components/Eligibility";
 import ApplicationProcess from "../Components/ApplicationProcess";
 import { FaBullhorn, FaHandPointRight, FaTimes } from "react-icons/fa";
@@ -617,20 +650,7 @@ const Home = () => {
             Our Supporters
           </div>
 
-          <Marquee>
-            <div className="flex space-x-6">
-              <img src={Img23} alt="supporter-logo" className="h-[100px] ms-10" />
-              <img src={Img1} alt="supporter-logo" className="h-[100px]" />
-              <img src={Img2} alt="supporter-logo" className="h-[100px]" />
-              <img src={Img4} alt="supporter-logo" className="h-[50px] mt-6" />
-              <img src={Img22} alt="supporter-logo" className="h-[50px] mt-5" />
-              <img src={Img19} alt="supporter-logo" className="w-[400px]" />
-              <img src={Img20} alt="supporter-logo" className="h-[40px] mt-7 " />
-              <img src={Img21} alt="supporter-logo" className="h-[40px] mt-7 " />
-              <img src={Img7} alt="supporter-logo" className="h-[50px] w-[180px]  mt-7 " />
-
-            </div>
-          </Marquee>
+          <SupportersMarquee />
         </div>
       </div>
 

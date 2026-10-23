@@ -12,6 +12,20 @@
   animation: marquee 40s linear infinite;
 }
 
+/* Supporters logo strip — styles must live in CSS (production CSP blocks JS-injected styles from react-fast-marquee) */
+@keyframes supporters-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-supporters-marquee {
+  animation: supporters-marquee 35s linear infinite;
+}
+
 /* Smooth fade-in animation with easing */
 .content {
   animation: fade-in 1.2s cubic-bezier(0.4, 0, 0.2, 1);
