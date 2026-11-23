@@ -25,6 +25,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Nirmaan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 
@@ -45,27 +47,30 @@
     <!-- Ravvio Chatbot Widget -->
     <script>
       (function() {
-        // Configuration
         window.RavvioConfig = {
           agentId: 'fb5aa8ac-8ade-4280-b0b7-9f115d6f9fff',
-          primaryColor: '#509c54',
+          primaryColor: '#15803d',
           position: 'bottom-right',
           size: 'medium',
-          chatTitle: 'Nirmaan Assistant',
-          welcomeMessage: 'Hi there! I\'m Nirmaan\'s Assistant. How can I help you today?',
+          chatTitle: "Nirmaan's Assistant",
+          welcomeMessage:
+            "Hi! I'm Nirmaan's Assistant — the pre-incubator at IIT Madras. Ask about Pratham & Akshar, UG-FIR / KGMG fellowships, or reach us at nirmaan@smail.iitm.ac.in.",
           showBranding: true,
-          suggestedQuestions: ["How can Nirmaan help me turn my startup idea into reality?","What kind of support and funding does Nirmaan provide?","Am I eligible to apply for Nirmaan's pre-incubation program?"],
-          baseUrl: 'https://chatbot.ravvio.in'
+          suggestedQuestions: [
+            'How can Nirmaan help me turn my startup idea into reality?',
+            'What kind of support and funding does Nirmaan provide?',
+            'Am I eligible to apply for Nirmaan\'s pre-incubation program?',
+            'How do I contact the Nirmaan team?',
+          ],
+          baseUrl: 'https://chatbot.ravvio.in',
         };
 
-        // Create and inject the widget
         function createRavvioWidget() {
           const config = window.RavvioConfig;
           const buttonSize = config.size === 'small' ? '55px' : config.size === 'large' ? '75px' : '65px';
           const frameWidth = config.size === 'small' ? '350px' : config.size === 'large' ? '450px' : '400px';
           const frameHeight = config.size === 'small' ? '500px' : config.size === 'large' ? '600px' : '550px';
-          
-          // Create container
+
           const container = document.createElement('div');
           container.id = 'ravvio-chat-container';
           container.style.cssText = `
@@ -75,26 +80,24 @@
             z-index: 10000;
           `;
 
-          // Create button
           const button = document.createElement('button');
           button.id = 'ravvio-chat-button';
           button.style.cssText = `
-            width: ${buttonSize}; 
+            width: ${buttonSize};
             height: ${buttonSize};
             border-radius: 50%;
             background: linear-gradient(135deg, ${config.primaryColor}, ${config.primaryColor}dd);
-            color: white; 
-            border: none; 
+            color: white;
+            border: none;
             cursor: pointer;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-            display: flex; 
-            align-items: center; 
+            display: flex;
+            align-items: center;
             justify-content: center;
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
           `;
 
-          // Create chat icon
           const chatIcon = document.createElement('div');
           chatIcon.innerHTML = `
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -108,7 +111,6 @@
             justify-content: center;
           `;
 
-          // Create close icon
           const closeIcon = document.createElement('div');
           closeIcon.innerHTML = `
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.3" stroke="white" width="24" height="24">
@@ -126,8 +128,7 @@
 
           button.appendChild(chatIcon);
           button.appendChild(closeIcon);
-          
-          // Create welcome popup
+
           const welcomePopup = document.createElement('div');
           welcomePopup.id = 'ravvio-welcome-popup';
           welcomePopup.style.cssText = `
@@ -140,7 +141,7 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             min-width: 320px;
             max-width: 400px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             font-size: 14px;
             line-height: 1.4;
             color: #333;
@@ -151,8 +152,7 @@
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             pointer-events: none;
           `;
-          
-          // Add close button to popup
+
           const closeBtn = document.createElement('button');
           closeBtn.innerHTML = '×';
           closeBtn.style.cssText = `
@@ -172,18 +172,17 @@
             border-radius: 50%;
             transition: all 0.2s;
           `;
-          
+
           closeBtn.addEventListener('mouseenter', () => {
             closeBtn.style.backgroundColor = '#f3f4f6';
             closeBtn.style.color = '#666';
           });
-          
+
           closeBtn.addEventListener('mouseleave', () => {
             closeBtn.style.backgroundColor = 'transparent';
             closeBtn.style.color = '#999';
           });
-          
-          // Add welcome message content
+
           const messageContent = document.createElement('div');
           messageContent.style.cssText = 'padding-right: 24px;';
           messageContent.innerHTML = `
@@ -194,21 +193,20 @@
               </div>
             </div>
           `;
-          
+
           welcomePopup.appendChild(messageContent);
           welcomePopup.appendChild(closeBtn);
 
-          // Create chat frame
           const frame = document.createElement('div');
           frame.id = 'ravvio-chat-frame';
           frame.style.cssText = `
             position: absolute;
             ${config.position.includes('bottom') ? 'bottom: 80px;' : 'top: 80px;'}
             ${config.position.includes('right') ? 'right: 0;' : 'left: 0;'}
-            display: none; 
-            width: ${frameWidth}; 
+            display: none;
+            width: ${frameWidth};
             height: ${frameHeight};
-            border-radius: 16px; 
+            border-radius: 16px;
             overflow: hidden;
             box-shadow: 0 8px 24px rgba(0,0,0,0.2);
             background: white;
@@ -217,26 +215,23 @@
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           `;
 
-          // Create iframe
           const iframe = document.createElement('iframe');
           const embedParams = new URLSearchParams({
             primaryColor: config.primaryColor,
             chatTitle: config.chatTitle,
             welcomeMessage: config.welcomeMessage,
             showBranding: config.showBranding.toString(),
-            suggestedQuestions: JSON.stringify(config.suggestedQuestions)
+            suggestedQuestions: JSON.stringify(config.suggestedQuestions),
           });
-          
+
           iframe.src = `${config.baseUrl}/embed/${config.agentId}?${embedParams.toString()}`;
           iframe.style.cssText = 'width: 100%; height: 100%; border: none;';
           iframe.title = 'Ravvio Chatbot';
 
           frame.appendChild(iframe);
 
-          // State management
           let isOpen = false;
 
-          // Function to update button icon
           function updateButtonIcon() {
             if (isOpen) {
               chatIcon.style.opacity = '0';
@@ -247,14 +242,12 @@
             }
           }
 
-          // Toggle functionality
           function toggleChat() {
             isOpen = !isOpen;
             updateButtonIcon();
-            
+
             if (isOpen) {
               frame.style.display = 'block';
-              // Force reflow
               frame.offsetHeight;
               frame.style.opacity = '1';
               frame.style.transform = 'scale(1)';
@@ -269,28 +262,25 @@
             }
           }
 
-          // Button interactions
           button.addEventListener('click', () => {
-            hideWelcomePopup(); // Hide popup immediately when button is clicked
+            hideWelcomePopup();
             toggleChat();
           });
-          
+
           button.addEventListener('mouseenter', () => {
             button.style.transform = 'scale(1.1)';
           });
-          
+
           button.addEventListener('mouseleave', () => {
             button.style.transform = 'scale(1)';
           });
 
-          // Close when clicking outside
           document.addEventListener('click', (e) => {
             if (isOpen && !container.contains(e.target)) {
               toggleChat();
             }
           });
 
-          // Add responsive CSS
           const style = document.createElement('style');
           style.textContent = `
             @media screen and (max-width: 767px) {
@@ -309,26 +299,22 @@
           `;
           document.head.appendChild(style);
 
-          // Assemble widget
           container.appendChild(button);
           container.appendChild(frame);
           container.appendChild(welcomePopup);
-          
-          // Welcome popup functionality
+
           let welcomeShown = false;
           let welcomeTimeout;
-          
+
           function showWelcomePopup() {
             if (welcomeShown || isOpen) return;
             welcomeShown = true;
             welcomePopup.style.pointerEvents = 'auto';
             welcomePopup.style.opacity = '1';
             welcomePopup.style.transform = 'translateY(0)';
-            
-            // Auto hide after 8 seconds
             welcomeTimeout = setTimeout(hideWelcomePopup, 8000);
           }
-          
+
           function hideWelcomePopup() {
             welcomePopup.style.opacity = '0';
             welcomePopup.style.transform = 'translateY(10px)';
@@ -337,14 +323,10 @@
             }, 300);
             if (welcomeTimeout) clearTimeout(welcomeTimeout);
           }
-          
-          // Show welcome popup after 2 seconds
+
           setTimeout(showWelcomePopup, 2000);
-          
-          // Close popup when close button is clicked
           closeBtn.addEventListener('click', hideWelcomePopup);
-          
-          // Hide popup when chat is opened
+
           const originalToggleChat = toggleChat;
           toggleChat = function() {
             if (!isOpen) {
@@ -352,11 +334,10 @@
             }
             originalToggleChat();
           };
-          
+
           document.body.appendChild(container);
         }
 
-        // Initialize when DOM is ready
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', createRavvioWidget);
         } else {

@@ -40,18 +40,16 @@ const Navbar = () => {
 
   return (
     
-    <div className="fixed top-0 left-0 w-full shadow-md text-black py-4 px-2 sm:px-4 lg:px-8 z-50" style={{ backgroundColor: '#83d687' }}>
-      
-
-      <div className="flex items-center justify-between">
+    <div className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b-2 border-green-600 shadow-sm text-gray-900 py-2.5">
+      <div className="site-container flex items-center justify-between gap-2">
        <a
   className="flex items-center gap-1 sm:gap-2 md:gap-4 flex-nowrap cursor-pointer shrink-0"
   onClick={() => (window.location.href = "/")}
 >
   {/* Logos */}
-  <img src={Image} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="IITM Logo" />
-  <img src={Image3} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="SIE Logo" />
-  <img src={Image2} className="h-8 sm:h-10 lg:h-12 w-auto object-contain" alt="Nirmaan Logo" />
+  <img src={Image} className="navbar-logo navbar-logo--iitm" alt="IITM Logo" />
+  <img src={Image3} className="navbar-logo navbar-logo--sie" alt="SIE Logo" />
+  <img src={Image2} className="navbar-logo navbar-logo--nirmaan" alt="Nirmaan Logo" />
 
   {/* Text */}
   <div className="ml-1 sm:ml-2 text-[10px] leading-3 sm:text-[11px] sm:leading-4 lg:text-base lg:leading-5 font-dmsans font-bold whitespace-nowrap">
@@ -62,33 +60,36 @@ const Navbar = () => {
 
 
         {/* Desktop Menu */}
-        <div className="hidden xl:flex xl:gap-8 xl:mr-12 font-dmsans font-semibold text-sm">
-          <button onClick={() => (window.location.href = "/")} className={`xl:pt-4 ${activePage === '/' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>HOME</button>
-          <button onClick={() => (window.location.href = "/about_us")} className={`xl:pt-4 ${activePage === '/about_us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>ABOUT</button>
-          <button onClick={() => (window.location.href = "/genesis")} className={`xl:pt-4 ${activePage === '/genesis' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>GENESIS</button>
-          {/* <button onClick={() => (window.location.href = "/incubation")} className={`xl:pt-4 ${activePage.includes('/incubation') ? 'border-b-2 border-green-800 text-green-800' : ''}`}>PRATHAM & AKSHAR</button> */}
-          <button onClick={() => (window.location.href = "/events")} className={`xl:pt-4 ${activePage === '/events' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>EVENTS</button>
-          <button onClick={() => (window.location.href = "/teams")} className={`xl:pt-4 ${activePage === '/teams' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>TEAMS</button>
+        <div className="hidden xl:flex xl:items-center xl:gap-6 xl:mr-8 font-dmsans font-semibold text-sm">
+          <button onClick={() => (window.location.href = "/")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/' ? 'border-green-800 text-green-800' : ''}`}>HOME</button>
+          <button onClick={() => (window.location.href = "/about_us")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/about_us' ? 'border-green-800 text-green-800' : ''}`}>ABOUT</button>
+          <button onClick={() => (window.location.href = "/genesis")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/genesis' ? 'border-green-800 text-green-800' : ''}`}>GENESIS</button>
+          <button onClick={() => (window.location.href = "/events")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/events' ? 'border-green-800 text-green-800' : ''}`}>EVENTS</button>
+          <button onClick={() => (window.location.href = "/teams")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/teams' ? 'border-green-800 text-green-800' : ''}`}>TEAMS</button>
 
-          <div className="relative">
+          <div className="relative flex flex-col items-center">
             <button
               type="button"
               onClick={() => setMentorDropdownOpen((prev) => !prev)}
-              className={`xl:pt-4 ${activePage.includes('/mentor') ? 'border-b-2 border-green-800 text-green-800' : ''}`}
+              className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage.includes('/mentor') ? 'border-green-800 text-green-800' : ''}`}
+              aria-expanded={mentorDropdownOpen}
             >
-              MENTORS
+              MENTORS ▾
             </button>
             {mentorDropdownOpen && (
-              <div className="absolute bg-white text-black mt-1 shadow-lg rounded-sm right-[-20px] border-t-4 border-green-700 z-50">
-                <button className="block py-2 px-4 text-sm hover:bg-gray-200 w-full text-left whitespace-nowrap" onClick={() => handleMentorClick("/mentor/faculty")}>Faculty Mentor</button>
-                <button className="block py-2 px-4 text-sm hover:bg-gray-200 w-full text-left whitespace-nowrap" onClick={() => handleMentorClick("/mentor/business")}>Business Mentor</button>
+              <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2">
+                <div className="min-w-[11.5rem] overflow-hidden rounded-lg border border-gray-200 bg-white text-black shadow-lg">
+                  <div className="h-1 bg-green-700" aria-hidden />
+                  <button type="button" className="block w-full whitespace-nowrap px-4 py-2.5 text-left text-sm hover:bg-green-50" onClick={() => handleMentorClick("/mentor/faculty")}>Faculty Mentor</button>
+                  <button type="button" className="block w-full whitespace-nowrap border-t border-gray-100 px-4 py-2.5 text-left text-sm hover:bg-green-50" onClick={() => handleMentorClick("/mentor/business")}>Business Mentor</button>
+                </div>
               </div>
             )}
           </div>
 
-          <button onClick={() => (window.location.href = "/media")} className={`xl:pt-4 ${activePage === '/media' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>MEDIA</button>
-          <button onClick={() => (window.location.href = "/#faq")} className={`xl:pt-4 ${activePage === '/#faq' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>FAQ</button>
-          <button onClick={() => (window.location.href = "/contact-us")} className={`xl:pt-4 ${activePage === '/contact-us' ? 'border-b-2 border-green-800 text-green-800' : ''}`}>CONTACT</button>
+          <button onClick={() => (window.location.href = "/media")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/media' ? 'border-green-800 text-green-800' : ''}`}>MEDIA</button>
+          <button onClick={() => (window.location.href = "/#faq")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/#faq' ? 'border-green-800 text-green-800' : ''}`}>FAQ</button>
+          <button onClick={() => (window.location.href = "/contact-us")} className={`py-1 border-b-2 border-transparent hover:text-green-800 ${activePage === '/contact-us' ? 'border-green-800 text-green-800' : ''}`}>CONTACT</button>
         </div>
         
 

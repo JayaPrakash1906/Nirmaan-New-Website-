@@ -33,21 +33,16 @@ import ApplicationProcess from "../Components/ApplicationProcess";
 import Eligibility from "../Components/Eligibility";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import PageHeader from "../Components/PageHeader";
 
 function Incubation() {
   return (
-    <div className="font-dmsans">
+    <div className="site-wrap font-dmsans">
       <Navbar />
-
-      {/* Main Content */}
-      <section className=" md:mt-[80px]">
-      <div className="bg-green-100">
-                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <a className="text-black font-semibold" href="/incubation">Pre-Incubation</a></div>
-                        <h2 className="md:text-5xl font-semibold text-green-600 pt-8 pb-3 text-center sm:text-3xl">Pre-Incubation Program</h2>
-                        
-                </div> 
-        <p className="mr-16 ml-16 font-dmsans mt-6 ">
+      <main className="site-main">
+        <PageHeader title="Pre-Incubation Program" trail={[{ label: "Home", href: "/" }, { label: "Pre-Incubation" }]} />
+        <div className="site-container py-8 space-y-8 pb-12">
+        <p className="font-dmsans text-gray-700 leading-relaxed text-justify">
           {" "}
           Nirmaan offers two exciting programs for student teams ready to embark
           on their entrepreneurial journey: Pratham and Akshar. Pratham gives
@@ -57,12 +52,10 @@ function Incubation() {
           idea. With Pratham’s foundational training and Akshar’s MVP
           development support, you’ll have everything you need to turn your
           entrepreneurial vision into reality
-        </p>{" "}
-      </section>
-      {/* What We Offer Section */}
+        </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 px-10">
-        <div className="text-center border mt-4 rounded-lg p-6 border border-green-500">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="pro-card text-center">
           <h3 className="text-2xl font-semibold mb-4 text-green-600">
             Pratham - 8 Week Program
           </h3>
@@ -78,7 +71,7 @@ function Incubation() {
         </div>
 
         {/* Akshar Card */}
-        <div className="text-center border mt-4 rounded-lg p-6 border border-green-500">
+        <div className="pro-card text-center">
           <h3 className="text-2xl font-semibold mb-4 text-green-600">
             Akshar - 6 Month MVP Development
           </h3>
@@ -94,18 +87,16 @@ function Incubation() {
           </p>
         </div>
       </div>
-      <section className=" bg-white shadow-md rounded-lg p-8 mt-[50px]">
-        <h2 className="text-center text-3xl font-bold  text-green-600 mb-8">
-          What We Offer
-        </h2>
+      <div className="pro-card">
+        <h2 className="text-center text-2xl font-semibold text-green-800 mb-6">What We Offer</h2>
         <WhatWeOffer />
-      </section>
-      <section className="mb-16 bg-gradient-to-r from-green-100 via-white to-green-200 shadow-md rounded-lg p-8">
-        <h2 className="text-center text-3xl font-bold font-dmsans text-green-600 mb-8">
-          Application Process
-        </h2>
+      </div>
+      <div className="pro-card">
+        <h2 className="text-center text-2xl font-semibold font-dmsans text-green-800 mb-6">Application Process</h2>
         <ApplicationProcess />
-      </section>
+      </div>
+        </div>
+      </main>
       <Footer />
     </div>
   );

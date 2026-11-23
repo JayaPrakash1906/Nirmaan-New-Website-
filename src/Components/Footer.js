@@ -1,75 +1,105 @@
 import React from "react";
-import Img9 from "../Assets/footer.jpg";
-import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaLocationDot, FaYoutube } from "react-icons/fa6";
+import nirmaanLogo from "../Assets/nirmaan logo.png";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+
+const socials = [
+  {
+    href: "https://www.linkedin.com/company/nirmaan-iitm/",
+    label: "LinkedIn",
+    Icon: FaLinkedinIn,
+  },
+  {
+    href: "https://www.youtube.com/channel/UCqXpedHH46Y5_x-7MNY6nCw",
+    label: "YouTube",
+    Icon: FaYoutube,
+  },
+  {
+    href: "https://www.instagram.com/nirmaan_iitm/",
+    label: "Instagram",
+    Icon: FaInstagram,
+  },
+  {
+    href: "https://www.facebook.com/nirmaan.iitm",
+    label: "Facebook",
+    Icon: FaFacebookF,
+  },
+];
+
+const navigateLinks = [
+  { href: "/about_us", label: "About Nirmaan" },
+  { href: "/programs", label: "Pratham & Akshar" },
+  { href: "/teams", label: "Star Startups" },
+  { href: "/events", label: "Events" },
+];
+
+const exploreLinks = [
+  { href: "/genesis", label: "Genesis" },
+  { href: "/mentor/faculty", label: "Mentors & Advisors" },
+  { href: "/media", label: "Media" },
+  { href: "/contact-us", label: "Contact" },
+];
 
 const Footer = () => {
   return (
-    <div className="mt-16 md:mb-auto">
-      <div
-        className="relative bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${Img9})`,
-          height: "auto",
-        }}
-      >
-        {/* Contact, Quick Links, and Socials */}
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-8 px-8 py-6 text-white font-dmsans">
-          {/* Contact Section */}
-          <div>
-            <h3 className="font-semibold mt-4 mb-3">Contact</h3>
-            <div className="flex items text-sm">
-              <FaEnvelope className="mr-2 h-5 w-5" />
-              <span>Nirmaan@smail.iitm.ac.in</span>
-            </div>
-            <div className="flex items-start mt-2 text-sm">
-              <FaLocationDot className="mr-2 h-5 w-5" />
-              <div>
-                <p>Sudha & Shankar Innovation Hub</p>
-                <p>Indian Institute of Technology Madras</p>
-                <p>Chennai - 600036, India</p>
-              </div>
-            </div>
-          </div>  
-
-          {/* Quick Links Section */}
-          <div>
-            <h3 className="font-semibold mt-4 mb-3 font-dmsans">Quick Links</h3>
-            <div className="grid grid-cols-1 gap-2 text-sm">
-              <a href="/media" className="hover:underline" >Blog</a>
-              <a href="/media" className="hover:underline">Innosphere Podcast</a>
-              <a href="/media" className="hover:underline">Innosphere Magazine</a>
+    <footer className="site-footer mt-16 font-dmsans">
+      <div className="site-container site-footer__top">
+        <div className="site-footer__brand">
+          <div className="flex items-center gap-3">
+            <img src={nirmaanLogo} alt="" className="site-footer__logo" />
+            <div>
+              <div className="site-footer__name">NIRMAAN</div>
+              <span className="site-footer__sub">Pre-Incubator · IIT Madras</span>
             </div>
           </div>
-
-          {/* Social Media Links */}
-          <div>
-            <h3 className="font-semibold mt-4 mb-3 font-dmsans">Follow Us</h3>
-            <div className="flex space-x-6 mt-4"target="_blank" >
-              <a href="https://www.linkedin.com/company/nirmaan-iitm/" target="_blank" rel="noopener noreferrer"  aria-label="LinkedIn">
-                <FaLinkedin className="h-6 w-6 hover:text-gray-400" />
+          <p className="site-footer__tag">
+            The pre-incubator of IIT Madras — turning student ideas into ventures since 2015.
+          </p>
+          <div className="site-footer__social">
+            {socials.map(({ href, label, Icon }) => (
+              <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} title={label}>
+                <Icon />
               </a>
-              <a href="https://www.youtube.com/channel/UCqXpedHH46Y5_x-7MNY6nCw" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                <FaYoutube className="h-6 w-6 hover:text-gray-400" />
-              </a>
-              <a href="https://www.instagram.com/nirmaan_iitm?igsh=YWdocTFid3Y5Zmdx" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram className="h-6 w-6 hover:text-gray-400" />
-              </a>
-              <a href="https://www.facebook.com/nirmaan.iitm?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <FaFacebookF className="h-6 w-6 hover:text-gray-400" />
-              </a>
-            </div>
+            ))}
           </div>
+        </div>
+
+        <div>
+          <h3 className="site-footer__heading">Navigate</h3>
+          {navigateLinks.map(({ href, label }) => (
+            <a key={href} href={href} className="site-footer__link">
+              {label}
+            </a>
+          ))}
+        </div>
+
+        <div>
+          <h3 className="site-footer__heading">Explore</h3>
+          {exploreLinks.map(({ href, label }) => (
+            <a key={href} href={href} className="site-footer__link">
+              {label}
+            </a>
+          ))}
+        </div>
+
+        <div>
+          <h3 className="site-footer__heading">Reach us</h3>
+          <a href="mailto:nirmaan@smail.iitm.ac.in" className="site-footer__mail">
+            nirmaan@smail.iitm.ac.in
+          </a>
+          <p className="site-footer__address">
+            1<sup>st</sup> Floor, Sudha &amp; Shankar Innovation Hub,
+          </p>
+          <p className="site-footer__address">IIT Madras,</p>
+          <p className="site-footer__address">Chennai – 600036, India</p>
         </div>
       </div>
 
-      {/* Copyright Section */}
-      <div className="text-center text-white bg-green-900 py-3 font-dmsans">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Designed by Nirmaan Team
-        </p>
+      <div className="site-container site-footer__bottom">
+        <span>&copy; {new Date().getFullYear()} Nirmaan · SIE, IIT Madras</span>
+        <span>Bringing Ideas to Life</span>
       </div>
-    </div>
-  );  
+    </footer>
+  );
 };
 
 export default Footer;

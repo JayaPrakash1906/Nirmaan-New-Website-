@@ -137,7 +137,7 @@ const Faq = () => {
   };
 
   return (
-    <section id="faq" className="py-12 px-6 sm:px-10 max-w-5xl mx-auto mt-10">
+    <section id="faq" className="site-container py-8 sm:py-10 mt-6">
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold font-dmsans text-green-600 mb-4">
           Frequently Asked Questions
