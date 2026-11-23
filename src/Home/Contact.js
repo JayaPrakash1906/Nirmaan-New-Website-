@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import PageHeader from "../Components/PageHeader";
 
-const CONTACT_EMAIL = "Nirmaan@smail.iitm.ac.in";
+const CONTACT_EMAIL = "nirmaan@smail.iitm.ac.in";
 
 function Contact() {
     const [status, setStatus] = useState("idle");
@@ -14,13 +14,23 @@ function Contact() {
         const data = new FormData(form);
         setStatus("sending");
 
+        const replyTo = data.get("email");
+        if (replyTo) data.set("_replyto", replyTo);
+        const first = data.get("first_name") || "";
+        const last = data.get("last_name") || "";
+        data.set("name", `${first} ${last}`.trim());
+
         try {
             const res = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(CONTACT_EMAIL)}`, {
                 method: "POST",
                 headers: { Accept: "application/json" },
                 body: data,
             });
-            if (res.ok) {
+            const json = await res.json().catch(() => ({}));
+            const ok =
+                res.ok &&
+                (json.success === true || json.success === "true" || (typeof json.success === "string" && json.success.length > 0));
+            if (ok) {
                 setStatus("sent");
                 form.reset();
             } else {
@@ -50,6 +60,7 @@ function Contact() {
                         onSubmit={handleSubmit}
                     >
                         <input type="hidden" name="_subject" value="Nirmaan website — contact form" />
+                        <input type="hidden" name="_template" value="table" />
                         <input type="hidden" name="_captcha" value="false" />
                         <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
                         <input
@@ -91,12 +102,13 @@ function Contact() {
                                 <p className="text-green-700 text-sm font-medium">Thank you — your message was sent.</p>
                             )}
                             {status === "error" && (
-                                <p className="text-red-600 text-sm">
-                                    Could not send online. Please email{" "}
+                                <p className="text-red-600 text-sm max-w-md">
+                                    Could not send right now. Email{" "}
                                     <a href={`mailto:${CONTACT_EMAIL}`} className="underline">
                                         {CONTACT_EMAIL}
                                     </a>{" "}
-                                    directly.
+                                    directly, or ask the Nirmaan team to confirm the FormSubmit activation email for
+                                    this address if the form was never used before.
                                 </p>
                             )}
                             <button

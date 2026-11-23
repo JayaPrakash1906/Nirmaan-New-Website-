@@ -12,6 +12,7 @@
     "carousel": "^0.0.3",
     "framer-motion": "^11.18.2",
     "icons": "^1.0.0",
+    "jquery": "^4.1.0",
     "lity": "^2.4.1",
     "lucide-react": "^0.511.0",
     "react": "^18.3.1",

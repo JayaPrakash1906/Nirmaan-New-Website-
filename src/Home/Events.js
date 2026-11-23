@@ -6,8 +6,6 @@ import { FaClock } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
 import demo from "../Assets/Events/DemoDay2024.png";
 import delta from "../Assets/delta_expo.jpg";
-import "lity/dist/lity.css";
-import "lity";
 
 const events = [
   {
@@ -67,7 +65,8 @@ function Events() {
                 <p className="mt-4 text-gray-700 leading-relaxed text-justify">{event.body}</p>
                 <a
                   href={event.agendaUrl}
-                  data-lity
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block mt-5 bg-green-700 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-green-800"
                 >
                   View agenda

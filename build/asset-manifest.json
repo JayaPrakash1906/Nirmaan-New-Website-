@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.62419e3f.css",
-    "main.js": "/static/js/main.d0f696a4.js",
+    "main.css": "/static/css/main.58e2fd92.css",
+    "main.js": "/static/js/main.2da57e22.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
@@ -168,12 +168,12 @@
     "static/media/officialsubspace_logo.jpg": "/static/media/officialsubspace_logo.3c80598f8d52f26c889f.jpg",
     "static/media/medium.png": "/static/media/medium.2e3a5ec8933747bfa9f7.png",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
-    "main.62419e3f.css.map": "/static/css/main.62419e3f.css.map",
-    "main.d0f696a4.js.map": "/static/js/main.d0f696a4.js.map",
+    "main.58e2fd92.css.map": "/static/css/main.58e2fd92.css.map",
+    "main.2da57e22.js.map": "/static/js/main.2da57e22.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62419e3f.css",
-    "static/js/main.d0f696a4.js"
+    "static/css/main.58e2fd92.css",
+    "static/js/main.2da57e22.js"
   ]
 }
