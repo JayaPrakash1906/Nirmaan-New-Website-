@@ -631,7 +631,13 @@ const Home = () => {
           </div>
         </div>
 
-        <NirmaanNewsFeed limit={6} title="In the news" showViewAll showThumbnails={false} />
+        <NirmaanNewsFeed
+          limit={6}
+          title="In the news"
+          showViewAll
+          showThumbnails={false}
+          intro="Press and stories about Nirmaan, SIE, and our startup ecosystem — fetched automatically from the web."
+        />
 
         <h2 className="heading-section font-dmsans">Our Supporters</h2>
         <SupportersMarquee />

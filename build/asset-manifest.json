@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a472100.css",
+    "main.css": "/static/css/main.62419e3f.css",
     "main.js": "/static/js/main.d0f696a4.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/side2.jpg": "/static/media/side2.0e142d03adfc2b86f4ef.jpg",
@@ -120,10 +120,10 @@
     "static/media/vaibhav_goyal.jpg": "/static/media/vaibhav_goyal.9cac4291b57bdfe0733b.jpg",
     "static/media/plenome_logo.jpeg": "/static/media/plenome_logo.d4ef11c7b3ef18fcfadf.jpeg",
     "static/media/sivaramakrishnan.jpg": "/static/media/sivaramakrishnan.572753be558d63f35b80.jpg",
-    "index.html": "/index.html",
     "static/media/santosh_sahu.jpg": "/static/media/santosh_sahu.66d9a409da28ecc0a14b.jpg",
     "static/media/Kalaari-Logo.png": "/static/media/Kalaari-Logo.c7a108d73c7d2c802633.png",
     "static/media/Harsha.jpg": "/static/media/Harsha.522db09c002c87e02e4e.jpg",
+    "index.html": "/index.html",
     "static/media/Krishnamurti.jpg": "/static/media/Krishnamurti.935e074b3d1adee66801.jpg",
     "static/media/nexus.png": "/static/media/nexus.9548923e9c68c391bd62.png",
     "static/media/green_aadhaar_logo.jpg": "/static/media/green_aadhaar_logo.7049edd152951b28f55f.jpg",
@@ -168,12 +168,12 @@
     "static/media/officialsubspace_logo.jpg": "/static/media/officialsubspace_logo.3c80598f8d52f26c889f.jpg",
     "static/media/medium.png": "/static/media/medium.2e3a5ec8933747bfa9f7.png",
     "static/media/american_express_logo.svg": "/static/media/american_express_logo.a6b5dbb2a0e1ed428babb4de1e9d1a90.svg",
-    "main.3a472100.css.map": "/static/css/main.3a472100.css.map",
+    "main.62419e3f.css.map": "/static/css/main.62419e3f.css.map",
     "main.d0f696a4.js.map": "/static/js/main.d0f696a4.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a472100.css",
+    "static/css/main.62419e3f.css",
     "static/js/main.d0f696a4.js"
   ]
 }
